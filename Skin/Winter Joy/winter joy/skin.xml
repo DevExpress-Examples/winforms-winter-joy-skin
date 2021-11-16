@@ -1,0 +1,2850 @@
+<Skins>
+  <Skin1 SkinProduct="NavBar" BasedOn="The Bezier" SkinName="Winter Joy">
+    <Elements>
+      <Background>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" SvgImageSize="Width=300,Height=400" ImageName="navbar\background.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0">
+              <SvgColor Name="st00" Value="178,226,234" SkinColorId="Paint Shadow" />
+              <SvgColor Name="st10" Value="128,180,193" SkinColorId="Paint Deep Shadow" />
+              <SvgColor Name="st20" Value="109,51,8" SkinColorId="Brown" />
+              <SvgColor Name="st30" Value="White" SkinColorId="Real White" />
+              <SvgColor Name="st01" Value="178,226,234" SkinColorId="Blue" Opacity="0.35" />
+              <SvgColor Name="st21" Value="109,51,8" SkinColorId="Brown" />
+              <SvgColor Name="st40" Value="30,16,4" SkinColorId="Real Black" />
+              <SvgColor Name="st50" Value="224,67,48" SkinColorId="Red" />
+              <SvgColor Name="st41" Value="30,16,4" SkinColorId="Real Black" Opacity="0.35" />
+              <SvgColor Name="st51" Value="224,67,48" SkinColorId="Red" />
+              <SvgColor Name="st42" Value="30,16,4" SkinColorId="Real Black" Opacity="0.35" />
+              <SvgColor Name="st31" Value="White" SkinColorId="Real White" />
+              <SvgColor Name="st02" Value="178,226,234" SkinColorId="Blue" Opacity="0.35" />
+              <SvgColor Name="st60" Value="249,129,21" SkinColorId="Orange" />
+              <SvgColor Name="st43" Value="30,16,4" SkinColorId="Real Black" />
+              <SvgColor Name="st70" Value="255,204,77" SkinColorId="Yellow" />
+              <SvgColor Name="st44" Value="30,16,4" SkinColorId="Real Black" Opacity="0.35" />
+              <SvgColor Name="st32" Value="White" SkinColorId="Real White" />
+              <SvgColor Name="st45" Value="30,16,4" SkinColorId="Real Black" Opacity="0.35" />
+              <SvgColor Name="st22" Value="109,51,8" SkinColorId="Brown" />
+              <SvgColor Name="st80" Value="77,142,110" SkinColorId="Green" />
+              <SvgColor Name="st61" Value="249,129,21" SkinColorId="Orange" />
+              <SvgColor Name="st72" Value="255,204,77" SkinColorId="Yellow" />
+              <SvgColor Name="st11" Value="128,180,193" SkinColorId="Blue" />
+              <SvgColor Name="st73" Value="255,204,77" SkinColorId="Yellow" />
+              <SvgColor Name="st12" Value="128,180,193" SkinColorId="Paint Deep Shadow" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="navbar\background[0].svg" />
+          </SvgImageNames>
+          <SizingMargins Bottom="398" Left="290" />
+        </Image>
+        <Properties>
+          <AllowTouch Value="False" ValueType="System.Boolean" />
+          <DxSolidColor Value="0:3=0x0;0:4=0x0;0:7=0x0;" ValueType="System.String" />
+          <ScaleImage Value="True" ValueType="System.Boolean" />
+        </Properties>
+        <Color BackColor="@Paint" />
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" SvgImageSize="Width=300,Height=400" ImageName="navbar\200dpi_background.png">
+              <SizingMargins Bottom="796" Left="580" />
+            </Image>
+            <Color BackColor="@Paint" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </Background>
+      <GroupClient>
+        <Properties>
+          <AllowTouch Value="False" ValueType="System.Boolean" />
+        </Properties>
+        <Color BackColor="@Paint" ForeColor="@Brush" />
+      </GroupClient>
+    </Elements>
+  </Skin1>
+  <Skin2 SkinProduct="Common" BasedOn="The Bezier" SkinName="Winter Joy">
+    <Properties>
+      <AllowHoverAnimation Value="True" ValueType="System.Boolean" />
+      <ColorizationMode Value="6" ValueType="System.Int32" />
+    </Properties>
+    <SvgPalette>
+      <SvgPalette Name="DefaultSkinPalette">
+        <SvgColor Name="Paint" Value="237,248,252" />
+        <SvgColor Name="Paint High" Value="White" />
+        <SvgColor Name="Paint Shadow" Value="220,241,250" />
+        <SvgColor Name="Paint Deep Shadow" Value="186,227,242" />
+        <SvgColor Name="Brush" Value="69,59,65" />
+        <SvgColor Name="Brush (addl)" Value="69,59,65" />
+        <SvgColor Name="Brush Light" Value="122,122,122" />
+        <SvgColor Name="Brush High" Value="69,59,65" />
+        <SvgColor Name="Brush Major" Value="191,208,214" />
+        <SvgColor Name="Brush Minor" Value="218,232,237" />
+        <SvgColor Name="Accent Paint" Value="224,67,48" />
+        <SvgColor Name="Accent Paint Light" Value="210,237,247" />
+        <SvgColor Name="Accent Brush" Value="255,255,255" />
+        <SvgColor Name="Accent Brush Light" Value="255,207,201" />
+        <SvgColor Name="Key Paint" Value="115,181,206" />
+        <SvgColor Name="Key Brush" Value="255,255,255" />
+        <SvgColor Name="Key Brush Light" Value="183,230,247" />
+        <SvgColor Name="Red" Value="224,67,48" />
+        <SvgColor Name="Green" Value="64,155,116" />
+        <SvgColor Name="Blue" Value="115,181,206" />
+        <SvgColor Name="Yellow" Value="255,204,77" />
+        <SvgColor Name="Orange" Value="249,129,21" />
+        <SvgColor Name="Brown" Value="109,51,8" />
+        <SvgColor Name="Black" Value="113,99,108" />
+        <SvgColor Name="Gray" Value="190,190,190" />
+        <SvgColor Name="White" Value="255,255,255" />
+        <SvgColor Name="Real Black" Value="0,0,0" />
+        <SvgColor Name="Real White" Value="255,255,255" />
+        <SvgColor Name="altRed" Value="224,67,48" />
+        <SvgColor Name="altGreen" Value="64,155,116" />
+        <SvgColor Name="altBlue" Value="128,180,193" />
+        <SvgColor Name="altYellow" Value="255,204,77" />
+        <SvgColor Name="altBlack" Value="113,99,108" />
+        <SvgColor Name="altGray" Value="190,190,190" />
+        <SvgColor Name="altWhite" Value="White" />
+      </SvgPalette>
+      <SvgPalette Name="Normal">
+        <SvgColor Name="Blue" Value="43,93,186" SkinColorId="Blue" />
+        <SvgColor Name="Green" Value="0,145,51" SkinColorId="Green" />
+        <SvgColor Name="Red" Value="199,0,20" SkinColorId="Red" />
+        <SvgColor Name="White" Value="242,242,242" SkinColorId="Paint" />
+        <SvgColor Name="Yellow" Value="255,174,0" SkinColorId="Yellow" />
+        <SvgColor Name="Black" Value="122,122,122" SkinColorId="Black" />
+      </SvgPalette>
+      <SvgPalette Name="Disabled">
+        <SvgColor Name="White" Value="242,242,242" SkinColorId="Paint" />
+        <SvgColor Name="Black" Value="209,209,209" SkinColorId="Gray" />
+        <SvgColor Name="Blue" Value="209,209,209" SkinColorId="Gray" />
+        <SvgColor Name="Green" Value="209,209,209" SkinColorId="Gray" />
+        <SvgColor Name="Red" Value="209,209,209" SkinColorId="Gray" />
+        <SvgColor Name="Yellow" Value="209,209,209" SkinColorId="Gray" />
+      </SvgPalette>
+    </SvgPalette>
+    <CustomSvgPalette>
+      <SvgPalette Name="Winter Night" Index="1">
+        <SvgColor Name="Paint" Value="11,23,62" />
+        <SvgColor Name="Paint High" Value="8,17,46" />
+        <SvgColor Name="Paint Shadow" Value="13,28,77" />
+        <SvgColor Name="Paint Deep Shadow" Value="18,38,104" />
+        <SvgColor Name="Brush" Value="155,174,234" />
+        <SvgColor Name="Brush (addl)" Value="155,174,234" />
+        <SvgColor Name="Brush Light" Value="76,99,173" />
+        <SvgColor Name="Brush High" Value="155,174,234" />
+        <SvgColor Name="Brush Major" Value="21,45,122" />
+        <SvgColor Name="Brush Minor" Value="15,32,86" />
+        <SvgColor Name="Accent Paint" Value="68,102,215" />
+        <SvgColor Name="Accent Paint Light" Value="21,45,122" />
+        <SvgColor Name="Accent Brush" Value="255,255,255" />
+        <SvgColor Name="Accent Brush Light" Value="16,33,91" />
+        <SvgColor Name="Key Paint" Value="32,67,184" />
+        <SvgColor Name="Key Brush" Value="255,255,255" />
+        <SvgColor Name="Key Brush Light" Value="108,140,245" />
+        <SvgColor Name="Red" Value="224,67,48" />
+        <SvgColor Name="Green" Value="64,155,116" />
+        <SvgColor Name="Blue" Value="115,181,206" />
+        <SvgColor Name="Yellow" Value="255,204,77" />
+        <SvgColor Name="Orange" Value="249,129,21" />
+        <SvgColor Name="Brown" Value="109,51,8" />
+        <SvgColor Name="Black" Value="155,174,234" />
+        <SvgColor Name="Gray" Value="76,99,173" />
+        <SvgColor Name="White" Value="8,17,46" />
+        <SvgColor Name="Real Black" Value="0,0,0" />
+        <SvgColor Name="Real White" Value="255,255,255" />
+        <SvgColor Name="altRed" Value="224,67,48" />
+        <SvgColor Name="altGreen" Value="64,155,116" />
+        <SvgColor Name="altBlue" Value="128,180,193" />
+        <SvgColor Name="altYellow" Value="255,204,77" />
+        <SvgColor Name="altBlack" Value="155,174,234" />
+        <SvgColor Name="altGray" Value="76,99,173" />
+        <SvgColor Name="altWhite" Value="8,17,46" />
+      </SvgPalette>
+      <SvgPalette Name="White Snow" Index="2">
+        <SvgColor Name="Paint" Value="White" />
+        <SvgColor Name="Paint High" Value="255,255,255" />
+        <SvgColor Name="Paint Shadow" Value="219,236,255" />
+        <SvgColor Name="Paint Deep Shadow" Value="195,220,247" />
+        <SvgColor Name="Brush" Value="69,59,65" />
+        <SvgColor Name="Brush (addl)" Value="69,59,65" />
+        <SvgColor Name="Brush Light" Value="122,122,122" />
+        <SvgColor Name="Brush High" Value="69,59,65" />
+        <SvgColor Name="Brush Major" Value="202,202,202" />
+        <SvgColor Name="Brush Minor" Value="227,227,227" />
+        <SvgColor Name="Accent Paint" Value="63,133,212" />
+        <SvgColor Name="Accent Paint Light" Value="219,236,255" />
+        <SvgColor Name="Accent Brush" Value="255,255,255" />
+        <SvgColor Name="Accent Brush Light" Value="171,206,247" />
+        <SvgColor Name="Key Paint" Value="63,133,212" />
+        <SvgColor Name="Key Brush" Value="255,255,255" />
+        <SvgColor Name="Key Brush Light" Value="171,206,247" />
+        <SvgColor Name="Red" Value="252,84,66" />
+        <SvgColor Name="Green" Value="62,199,139" />
+        <SvgColor Name="Blue" Value="63,133,212" />
+        <SvgColor Name="Yellow" Value="255,204,77" />
+        <SvgColor Name="Orange" Value="249,129,21" />
+        <SvgColor Name="Brown" Value="109,51,8" />
+        <SvgColor Name="Black" Value="108,108,108" />
+        <SvgColor Name="Gray" Value="190,190,190" />
+        <SvgColor Name="White" Value="255,255,255" />
+        <SvgColor Name="Real Black" Value="0,0,0" />
+        <SvgColor Name="Real White" Value="255,255,255" />
+        <SvgColor Name="altRed" Value="252,84,66" />
+        <SvgColor Name="altGreen" Value="62,199,139" />
+        <SvgColor Name="altBlue" Value="63,133,212" />
+        <SvgColor Name="altYellow" Value="255,204,77" />
+        <SvgColor Name="altBlack" Value="108,108,108" />
+        <SvgColor Name="altGray" Value="190,190,190" />
+        <SvgColor Name="altWhite" Value="White" />
+      </SvgPalette>
+    </CustomSvgPalette>
+    <Elements>
+      <LoadingBig>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" SvgImageSize="Width=49,Height=49" ImageName="common\loadingbig.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0">
+              <SvgColor Name="st00" Value="30,16,4" SkinColorId="Real Black" Opacity="0.35" />
+              <SvgColor Name="st10" Value="White" SkinColorId="Real White" />
+              <SvgColor Name="st20" Value="178,226,234" SkinColorId="Blue" Opacity="0.35" />
+              <SvgColor Name="st30" Value="249,129,21" SkinColorId="Orange" />
+              <SvgColor Name="st01" Value="30,16,4" SkinColorId="Real Black" />
+              <SvgColor Name="st02" Value="30,16,4" SkinColorId="Real Black" Opacity="0.35" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="common\loadingbig[0].svg" />
+          </SvgImageNames>
+        </Image>
+        <Properties>
+          <AllowTouch Value="False" ValueType="System.Boolean" />
+          <FrameCount Value="360" ValueType="System.Int32" />
+          <FrameDelay Value="5" ValueType="System.Int32" />
+          <OverlayAlpha Value="70" ValueType="System.Int32" />
+          <OverlayBackColor Value="128,128,128" ValueType="System.Drawing.Color" />
+          <ScaleImage Value="True" ValueType="System.Boolean" />
+        </Properties>
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" SvgImageSize="Width=49,Height=49" ImageName="common\200dpi_loadingbig.png" />
+            <Properties>
+              <FrameCount Value="360" ValueType="System.Int32" />
+              <FrameDelay Value="5" ValueType="System.Int32" />
+            </Properties>
+          </ScaleInfo>
+        </ScaleInfo>
+      </LoadingBig>
+      <SkinSvgIcon>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" SvgImageSize="Width=48,Height=48" ImageName="common\skinsvgicon.png">
+          <SvgImageNames>
+            <SvgImage Index="0" Name="common\skinsvgicon[0].svg" />
+          </SvgImageNames>
+        </Image>
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" SvgImageSize="Width=48,Height=48" ImageName="common\200dpi_skinsvgicon.png" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </SkinSvgIcon>
+    </Elements>
+  </Skin2>
+  <Skin3 SkinProduct="Editors" BasedOn="The Bezier" SkinName="Winter Joy">
+    <Elements>
+      <CheckBox>
+        <ContentMargins Bottom="1" Top="1" Left="1" Right="1" />
+        <Image ImageCount="12" Layout="Vertical" Stretch="NoResize" ImageName="editors\checkbox.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0">
+              <SvgColor Name="st0" Value="175,175,175" SkinColorId="Paint High" />
+              <SvgColor Name="st1" Value="112,112,112" SkinColorId="Brush Major" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="1">
+              <SvgColor Name="st0" Value="175,175,175" SkinColorId="Accent Paint Light" />
+              <SvgColor Name="st1" Value="112,112,112" SkinColorId="Brush Major" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="2">
+              <SvgColor Name="st0" Value="175,175,175" SkinColorId="Paint Shadow" />
+              <SvgColor Name="st1" Value="112,112,112" SkinColorId="Brush Major" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="3">
+              <SvgColor Name="st0" Value="175,175,175" SkinColorId="Paint" />
+              <SvgColor Name="st1" Value="112,112,112" SkinColorId="Brush Major" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="4">
+              <SvgColor Name="st0" Value="175,175,175" SkinColorId="Paint High" />
+              <SvgColor Name="st1" Value="112,112,112" SkinColorId="Brush Major" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="5">
+              <SvgColor Name="st0" Value="175,175,175" SkinColorId="Accent Paint Light" />
+              <SvgColor Name="st1" Value="112,112,112" SkinColorId="Brush Major" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="6">
+              <SvgColor Name="st0" Value="175,175,175" SkinColorId="Paint Shadow" />
+              <SvgColor Name="st1" Value="112,112,112" SkinColorId="Brush Major" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="7">
+              <SvgColor Name="st0" Value="175,175,175" SkinColorId="Paint" />
+              <SvgColor Name="st1" Value="112,112,112" SkinColorId="Brush Major" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="8">
+              <SvgColor Name="st0" Value="175,175,175" SkinColorId="Paint High" />
+              <SvgColor Name="st1" Value="112,112,112" SkinColorId="Brush Major" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="9">
+              <SvgColor Name="st0" Value="175,175,175" SkinColorId="Accent Paint Light" />
+              <SvgColor Name="st1" Value="112,112,112" SkinColorId="Brush Major" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="10">
+              <SvgColor Name="st0" Value="175,175,175" SkinColorId="Paint Shadow" />
+              <SvgColor Name="st1" Value="112,112,112" SkinColorId="Brush Major" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="11">
+              <SvgColor Name="st0" Value="175,175,175" SkinColorId="Paint" />
+              <SvgColor Name="st1" Value="112,112,112" SkinColorId="Brush Major" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="editors\checkbox[0].svg" />
+          </SvgImageNames>
+          <SizingMargins Bottom="1" Top="1" Left="1" Right="1" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="12" Layout="Horizontal" SvgImageSize="Width=14,Height=14" ImageName="editors\checkbox_glyph.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0" Opacity="0">
+              <SvgColor Name="Element2" Value="Black" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="1" Opacity="0">
+              <SvgColor Name="Element2" Value="Black" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="2" Opacity="0">
+              <SvgColor Name="Element2" Value="Black" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="3" Opacity="0">
+              <SvgColor Name="Element2" Value="Black" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="5">
+              <SvgColor Name="Element2" Value="Black" />
+              <SvgColor Name="cls-10" Value="224,67,48" SkinColorId="Accent Paint" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="6" Opacity="0.5">
+              <SvgColor Name="Element2" Value="Black" />
+              <SvgColor Name="cls-10" Value="224,67,48" SkinColorId="Accent Paint" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="7" Opacity="0.25">
+              <SvgColor Name="Element2" Value="Black" />
+              <SvgColor Name="cls-10" Value="224,67,48" SkinColorId="Brush Light" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="8" Opacity="0.75">
+              <SvgColor Name="st0" Value="112,112,112" SkinColorId="Brush High" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="9">
+              <SvgColor Name="st0" Value="112,112,112" SkinColorId="Brush (addl)" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="10" Opacity="0.5" />
+            <SvgPalette Name="" Index="11" Opacity="0.25" />
+            <SvgPalette Name="" Index="4">
+              <SvgColor Name="Element2" Value="Black" />
+              <SvgColor Name="cls-10" Value="224,67,48" SkinColorId="Accent Paint" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="editors\checkbox_glyph[0].svg" />
+            <SvgImage Index="8" Name="editors\checkbox_glyph[8].svg" />
+            <SvgImage Index="9" Name="editors\checkbox_glyph[9].svg" />
+            <SvgImage Index="10" Name="editors\checkbox_glyph[10].svg" />
+            <SvgImage Index="11" Name="editors\checkbox_glyph[11].svg" />
+          </SvgImageNames>
+        </Glyph>
+        <Properties>
+          <AllowCompact Value="True" ValueType="System.Boolean" />
+          <AllowTouch Value="True" ValueType="System.Boolean" />
+        </Properties>
+        <SizeTouch AllowScale="False" ScaleFactor="1" MinSize="Width=20,Height=20" />
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageCount="12" Layout="Vertical" Stretch="NoResize" ImageName="editors\200dpi_checkbox.png">
+              <SizingMargins Bottom="2" Top="2" Left="2" Right="2" />
+            </Image>
+            <Glyph Stretch="NoResize" ImageCount="12" Layout="Horizontal" SvgImageSize="Width=14,Height=14" ImageName="editors\200dpi_checkbox_glyph.png" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </CheckBox>
+      <ClearButton>
+        <Image ImageSize="Width=32,Height=128" ImageCount="4" Layout="Vertical" Stretch="Stretch" SvgImageSize="Width=32,Height=32" ImageName="editors\clearbutton.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0" Opacity="0" />
+            <SvgPalette Name="" Index="1" Opacity="0" />
+            <SvgPalette Name="" Index="2" Opacity="0" />
+            <SvgPalette Name="" Index="3" Opacity="0" />
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="editors\clearbutton[0].svg" />
+          </SvgImageNames>
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="4" Layout="Vertical" SvgImageSize="Width=16,Height=16" ImageName="editors\clearbutton_glyph.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="1">
+              <SvgColor Name="Element2" Value="Black" />
+              <SvgColor Name="cls-10" Value="224,67,48" SkinColorId="Accent Paint" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="2">
+              <SvgColor Name="st00" Value="224,67,48" SkinColorId="Accent Paint" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="3" Opacity="0.5">
+              <SvgColor Name="st00" Value="224,67,48" SkinColorId="Brush Light" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="0">
+              <SvgColor Name="st00" Value="224,67,48" SkinColorId="Accent Paint" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="editors\clearbutton_glyph[0].svg" />
+            <SvgImage Index="1" Name="editors\clearbutton_glyph[1].svg" />
+          </SvgImageNames>
+        </Glyph>
+        <Properties>
+          <AllowCompact Value="True" ValueType="System.Boolean" />
+          <AllowTouch Value="True" ValueType="System.Boolean" />
+          <DxSolidColor Value="0:W=0x0;1:W=0x0;2:W=0x0;3:W=0x0;All" ValueType="System.String" />
+        </Properties>
+        <Size MinSize="Width=20,Height=16" />
+        <SizeTouch AllowScale="False" ScaleFactor="1" MinSize="Width=16,Height=16" />
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageSize="Width=64,Height=256" ImageCount="4" Layout="Vertical" Stretch="Stretch" SvgImageSize="Width=32,Height=32" ImageName="editors\200dpi_clearbutton.png" />
+            <Glyph Stretch="NoResize" ImageCount="4" Layout="Vertical" SvgImageSize="Width=16,Height=16" ImageName="editors\200dpi_clearbutton_glyph.png" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </ClearButton>
+      <CloseButton>
+        <Image ImageSize="Width=32,Height=128" ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="editors\closebutton.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0" Opacity="0" />
+            <SvgPalette Name="" Index="1" Opacity="0" />
+            <SvgPalette Name="" Index="2" Opacity="0" />
+            <SvgPalette Name="" Index="3" Opacity="0" />
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="editors\closebutton[0].svg" />
+          </SvgImageNames>
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="4" Layout="Vertical" SvgImageSize="Width=16,Height=16" ImageName="editors\closebutton_glyph.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="1">
+              <SvgColor Name="Element2" Value="Black" />
+              <SvgColor Name="cls-10" Value="224,67,48" SkinColorId="Accent Paint" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="2">
+              <SvgColor Name="st00" Value="224,67,48" SkinColorId="Accent Paint" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="3" Opacity="0.5">
+              <SvgColor Name="st00" Value="224,67,48" SkinColorId="Brush Light" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="0">
+              <SvgColor Name="st00" Value="224,67,48" SkinColorId="Accent Paint" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="editors\closebutton_glyph[0].svg" />
+            <SvgImage Index="1" Name="editors\closebutton_glyph[1].svg" />
+          </SvgImageNames>
+        </Glyph>
+        <Properties>
+          <AllowCompact Value="True" ValueType="System.Boolean" />
+          <AllowTouch Value="True" ValueType="System.Boolean" />
+          <DxSolidColor Value="0:W=0x0;1:W=0x0;2:W=0x0;3:W=0x0;All" ValueType="System.String" />
+        </Properties>
+        <Size MinSize="Width=20,Height=16" />
+        <SizeTouch AllowScale="False" ScaleFactor="1" MinSize="Width=16,Height=16" />
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageSize="Width=64,Height=256" ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="editors\200dpi_closebutton.png" />
+            <Glyph Stretch="NoResize" ImageCount="4" Layout="Vertical" SvgImageSize="Width=16,Height=16" ImageName="editors\200dpi_closebutton_glyph.png" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </CloseButton>
+      <ComboButton>
+        <Image ImageSize="Width=32,Height=128" ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="editors\combobutton.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0" Opacity="0" />
+            <SvgPalette Name="" Index="1" Opacity="0" />
+            <SvgPalette Name="" Index="2" Opacity="0" />
+            <SvgPalette Name="" Index="3" Opacity="0" />
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="editors\combobutton[0].svg" />
+          </SvgImageNames>
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="4" Layout="Vertical" SvgImageSize="Width=16,Height=16" ImageName="editors\combobutton_glyph.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="1">
+              <SvgColor Name="Element2" Value="Black" />
+              <SvgColor Name="cls-10" Value="224,67,48" SkinColorId="Accent Paint" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="2">
+              <SvgColor Name="st00" Value="224,67,48" SkinColorId="Accent Paint" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="3" Opacity="0.5">
+              <SvgColor Name="st00" Value="224,67,48" SkinColorId="Brush Light" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="0">
+              <SvgColor Name="st00" Value="224,67,48" SkinColorId="Accent Paint" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="editors\combobutton_glyph[0].svg" />
+            <SvgImage Index="1" Name="editors\combobutton_glyph[1].svg" />
+          </SvgImageNames>
+        </Glyph>
+        <Properties>
+          <AllowCompact Value="True" ValueType="System.Boolean" />
+          <AllowTouch Value="True" ValueType="System.Boolean" />
+          <DxSolidColor Value="0:W=0x0;1:W=0x0;2:W=0x0;3:W=0x0;All" ValueType="System.String" />
+        </Properties>
+        <Size MinSize="Width=20,Height=10" />
+        <SizeTouch AllowScale="False" ScaleFactor="1" MinSize="Width=16,Height=16" />
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageSize="Width=64,Height=256" ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="editors\200dpi_combobutton.png" />
+            <Glyph Stretch="NoResize" ImageCount="4" Layout="Vertical" SvgImageSize="Width=16,Height=16" ImageName="editors\200dpi_combobutton_glyph.png" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </ComboButton>
+      <ContrastRatingIndicator>
+        <Image ImageCount="3" Layout="Horizontal" Stretch="Stretch" SvgImageSize="Width=16,Height=16" ImageName="editors\contrastratingindicator.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0" Opacity="0.25">
+              <SvgColor Name="Element2" Value="Black" />
+              <SvgColor Name="cls-10" Value="224,67,48" SkinColorId="Accent Brush" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="1">
+              <SvgColor Name="Element2" Value="Black" />
+              <SvgColor Name="cls-10" Value="224,67,48" SkinColorId="Accent Brush" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="2">
+              <SvgColor Name="Element2" Value="Black" />
+              <SvgColor Name="cls-10" Value="224,67,48" SkinColorId="Accent Brush" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="editors\contrastratingindicator[0].svg" />
+          </SvgImageNames>
+        </Image>
+        <Properties>
+          <AllowTouch Value="False" ValueType="System.Boolean" />
+          <ScaleImage Value="True" ValueType="System.Boolean" />
+        </Properties>
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageCount="3" Layout="Horizontal" Stretch="Stretch" SvgImageSize="Width=16,Height=16" ImageName="editors\200dpi_contrastratingindicator.png" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </ContrastRatingIndicator>
+      <EditorButton>
+        <ContentMargins Left="3" Right="3" />
+        <ContentMarginsCompact Left="3" Right="3" />
+        <Image ImageSize="Width=32,Height=128" ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="editors\editorbutton.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0" Opacity="0" />
+            <SvgPalette Name="" Index="1">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Accent Paint Light" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="2">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Paint Shadow" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="3" Opacity="0" />
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="editors\editorbutton[0].svg" />
+          </SvgImageNames>
+        </Image>
+        <Properties>
+          <AllowCompact Value="True" ValueType="System.Boolean" />
+          <AllowTouch Value="True" ValueType="System.Boolean" />
+          <DisabledText Value="@Brush Light" ValueType="System.Drawing.Color" />
+          <DxSolidColor Value="0:W=0x0;1:W=0xFFD2EDF7;2:W=0xFFDCF1FA;3:W=0x0;All" ValueType="System.String" />
+          <ForeColorHot Value="@Accent Paint" ValueType="System.Drawing.Color" />
+          <IsSingleLineBorder Value="False" ValueType="System.Boolean" />
+        </Properties>
+        <Color ForeColor="@Accent Paint" />
+        <Size MinSize="Width=16,Height=10" />
+        <SizeTouch AllowScale="False" ScaleFactor="1" MinSize="Width=16,Height=16" />
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageSize="Width=64,Height=256" ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="editors\200dpi_editorbutton.png" />
+            <Color ForeColor="@Accent Paint" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </EditorButton>
+      <RadioButton>
+        <ContentMargins Bottom="3" Top="3" Left="3" Right="3" />
+        <Image ImageCount="8" Layout="Vertical" Stretch="NoResize" ImageName="editors\radiobutton.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Paint High" />
+              <SvgColor Name="Mask" Value="0,0,0" SkinColorId="Brush Major" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="1">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Accent Paint Light" />
+              <SvgColor Name="Mask" Value="0,0,0" SkinColorId="Brush Major" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="2">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Paint Shadow" />
+              <SvgColor Name="Mask" Value="0,0,0" SkinColorId="Brush Major" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="3">
+              <SvgColor Name="Mask" Value="0,0,0" SkinColorId="Brush Major" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="4">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Paint High" />
+              <SvgColor Name="Mask" Value="0,0,0" SkinColorId="Brush Major" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="5">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Accent Paint Light" />
+              <SvgColor Name="Mask" Value="0,0,0" SkinColorId="Brush Major" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="6">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Paint Shadow" />
+              <SvgColor Name="Mask" Value="0,0,0" SkinColorId="Brush Major" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="7">
+              <SvgColor Name="Mask" Value="0,0,0" SkinColorId="Brush Major" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="8">
+              <SvgColor Name="Brush" Value="90,90,90" SkinColorId="Brush Major" />
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Paint High" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="9">
+              <SvgColor Name="Brush" Value="90,90,90" SkinColorId="Mask" Opacity="0.3" />
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Accent Paint Light" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="10">
+              <SvgColor Name="Brush" Value="90,90,90" SkinColorId="Mask" Opacity="0.3" />
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Paint Shadow" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="11">
+              <SvgColor Name="Brush" Value="90,90,90" SkinColorId="Brush Major" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="editors\radiobutton[0].svg" />
+          </SvgImageNames>
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="8" Layout="Horizontal" SvgImageSize="Width=16,Height=16" ImageName="editors\radiobutton_glyph.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0" Opacity="0">
+              <SvgColor Name="Element2" Value="Black" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="1" Opacity="0">
+              <SvgColor Name="Element2" Value="Black" />
+              <SvgColor Name="cls-10" Value="224,67,48" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="2" Opacity="0">
+              <SvgColor Name="Element2" Value="Black" />
+              <SvgColor Name="cls-10" Value="224,67,48" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="3" Opacity="0">
+              <SvgColor Name="Element2" Value="Black" />
+              <SvgColor Name="cls-10" Value="224,67,48" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="4">
+              <SvgColor Name="Element2" Value="Black" />
+              <SvgColor Name="cls-10" Value="224,67,48" SkinColorId="Accent Paint" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="5">
+              <SvgColor Name="Element2" Value="Black" />
+              <SvgColor Name="cls-10" Value="224,67,48" SkinColorId="Accent Paint" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="6" Opacity="0.5">
+              <SvgColor Name="Element2" Value="Black" />
+              <SvgColor Name="cls-10" Value="224,67,48" SkinColorId="Accent Paint" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="7" Opacity="0.25">
+              <SvgColor Name="Element2" Value="Black" />
+              <SvgColor Name="cls-10" Value="224,67,48" SkinColorId="Brush Light" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="8" Opacity="0.75" />
+            <SvgPalette Name="" Index="9" Opacity="0.75" />
+            <SvgPalette Name="" Index="10" Opacity="0.35" />
+            <SvgPalette Name="" Index="11" Opacity="0.15" />
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="editors\radiobutton_glyph[0].svg" />
+          </SvgImageNames>
+        </Glyph>
+        <Properties>
+          <AllowCompact Value="True" ValueType="System.Boolean" />
+          <AllowTouch Value="True" ValueType="System.Boolean" />
+          <Indent Value="4" ValueType="System.Int32" />
+        </Properties>
+        <SizeTouch AllowScale="False" ScaleFactor="1" MinSize="Width=20,Height=20" />
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageCount="8" Layout="Vertical" Stretch="NoResize" ImageName="editors\200dpi_radiobutton.png" />
+            <Glyph Stretch="NoResize" ImageCount="8" Layout="Horizontal" SvgImageSize="Width=16,Height=16" ImageName="editors\200dpi_radiobutton_glyph.png" />
+            <Properties>
+              <Indent Value="8" ValueType="System.Int32" />
+            </Properties>
+          </ScaleInfo>
+        </ScaleInfo>
+      </RadioButton>
+      <RatingIndicator>
+        <Image ImageCount="3" Layout="Horizontal" Stretch="Stretch" ImageName="editors\ratingindicator.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0">
+              <SvgColor Name="Element2" Value="Black" />
+              <SvgColor Name="cls-10" Value="224,67,48" SkinColorId="Brush Major" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="1">
+              <SvgColor Name="Element2" Value="Black" />
+              <SvgColor Name="cls-10" Value="224,67,48" SkinColorId="Accent Paint" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="2">
+              <SvgColor Name="Element2" Value="Black" />
+              <SvgColor Name="cls-10" Value="224,67,48" SkinColorId="Accent Paint" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="editors\ratingindicator[0].svg" />
+          </SvgImageNames>
+        </Image>
+        <Properties>
+          <AllowTouch Value="False" ValueType="System.Boolean" />
+          <ScaleImage Value="True" ValueType="System.Boolean" />
+        </Properties>
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageCount="3" Layout="Horizontal" Stretch="Stretch" ImageName="editors\200dpi_ratingindicator.png" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </RatingIndicator>
+      <SearchButton>
+        <Image ImageSize="Width=32,Height=128" ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="editors\searchbutton.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0" Opacity="0" />
+            <SvgPalette Name="" Index="1" Opacity="0" />
+            <SvgPalette Name="" Index="2" Opacity="0" />
+            <SvgPalette Name="" Index="3" Opacity="0" />
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="editors\searchbutton[0].svg" />
+          </SvgImageNames>
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="4" Layout="Vertical" ImageName="editors\searchbutton_glyph.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="1">
+              <SvgColor Name="Element2" Value="Black" />
+              <SvgColor Name="cls-10" Value="224,67,48" SkinColorId="Accent Paint" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="2">
+              <SvgColor Name="st00" Value="224,67,48" SkinColorId="Accent Paint" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="3" Opacity="0.5">
+              <SvgColor Name="st00" Value="224,67,48" SkinColorId="Brush Light" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="0">
+              <SvgColor Name="st00" Value="224,67,48" SkinColorId="Accent Paint" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="editors\searchbutton_glyph[0].svg" />
+            <SvgImage Index="1" Name="editors\searchbutton_glyph[1].svg" />
+          </SvgImageNames>
+        </Glyph>
+        <Properties>
+          <AllowCompact Value="True" ValueType="System.Boolean" />
+          <AllowTouch Value="True" ValueType="System.Boolean" />
+          <DxSolidColor Value="0:W=0x0;1:W=0x0;2:W=0x0;3:W=0x0;All" ValueType="System.String" />
+        </Properties>
+        <Size MinSize="Width=20,Height=10" />
+        <SizeTouch AllowScale="False" ScaleFactor="1" MinSize="Width=16,Height=16" />
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageSize="Width=64,Height=256" ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="editors\200dpi_searchbutton.png" />
+            <Glyph Stretch="NoResize" ImageCount="4" Layout="Vertical" ImageName="editors\200dpi_searchbutton_glyph.png" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </SearchButton>
+      <SpinDown>
+        <Image ImageSize="Width=32,Height=128" ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="editors\spindown.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0" Opacity="0" />
+            <SvgPalette Name="" Index="1" Opacity="0" />
+            <SvgPalette Name="" Index="2" Opacity="0" />
+            <SvgPalette Name="" Index="3" Opacity="0" />
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="editors\spindown[0].svg" />
+          </SvgImageNames>
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="4" Layout="Vertical" SvgImageSize="Width=16,Height=8" ImageName="editors\spindown_glyph.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="3" Opacity="0.5">
+              <SvgColor Name="st00" Value="224,67,48" SkinColorId="Brush Light" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="1">
+              <SvgColor Name="Element2" Value="Black" />
+              <SvgColor Name="cls-10" Value="224,67,48" SkinColorId="Accent Paint" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="0">
+              <SvgColor Name="st00" Value="224,67,48" SkinColorId="Accent Paint" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="2">
+              <SvgColor Name="st00" Value="224,67,48" SkinColorId="Accent Paint" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="editors\spindown_glyph[0].svg" />
+            <SvgImage Index="1" Name="editors\spindown_glyph[1].svg" />
+          </SvgImageNames>
+        </Glyph>
+        <Properties>
+          <AllowCompact Value="True" ValueType="System.Boolean" />
+          <AllowTouch Value="True" ValueType="System.Boolean" />
+          <DxSolidColor Value="0:W=0x0;1:W=0x0;2:W=0x0;3:W=0x0;All" ValueType="System.String" />
+        </Properties>
+        <Size MinSize="Width=16,Height=8" />
+        <SizeTouch AllowScale="False" ScaleFactor="1" MinSize="Width=16,Height=8" />
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageSize="Width=64,Height=256" ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="editors\200dpi_spindown.png" />
+            <Glyph Stretch="NoResize" ImageCount="4" Layout="Vertical" SvgImageSize="Width=16,Height=8" ImageName="editors\200dpi_spindown_glyph.png" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </SpinDown>
+      <SpinLeft>
+        <Image ImageSize="Width=32,Height=128" ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="editors\spinleft.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0" Opacity="0" />
+            <SvgPalette Name="" Index="1" Opacity="0" />
+            <SvgPalette Name="" Index="2" Opacity="0" />
+            <SvgPalette Name="" Index="3" Opacity="0" />
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="editors\spinleft[0].svg" />
+          </SvgImageNames>
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="4" Layout="Vertical" ImageName="editors\spinleft_glyph.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="1">
+              <SvgColor Name="Element2" Value="Black" />
+              <SvgColor Name="cls-10" Value="224,67,48" SkinColorId="Accent Paint" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="3" Opacity="0.5">
+              <SvgColor Name="st00" Value="224,67,48" SkinColorId="Brush Light" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="0">
+              <SvgColor Name="st00" Value="224,67,48" SkinColorId="Accent Paint" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="2">
+              <SvgColor Name="st00" Value="224,67,48" SkinColorId="Accent Paint" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="editors\spinleft_glyph[0].svg" />
+            <SvgImage Index="1" Name="editors\spinleft_glyph[1].svg" />
+          </SvgImageNames>
+        </Glyph>
+        <Properties>
+          <AllowTouch Value="True" ValueType="System.Boolean" />
+          <DxSolidColor Value="0:W=0x0;1:W=0x0;2:W=0x0;3:W=0x0;All" ValueType="System.String" />
+        </Properties>
+        <Size MinSize="Width=16,Height=10" />
+        <SizeTouch AllowScale="False" ScaleFactor="1" MinSize="Width=16,Height=16" />
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageSize="Width=64,Height=256" ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="editors\200dpi_spinleft.png" />
+            <Glyph Stretch="NoResize" ImageCount="4" Layout="Vertical" ImageName="editors\200dpi_spinleft_glyph.png" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </SpinLeft>
+      <SpinRight>
+        <Image ImageSize="Width=32,Height=128" ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="editors\spinright.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0" Opacity="0" />
+            <SvgPalette Name="" Index="1" Opacity="0" />
+            <SvgPalette Name="" Index="2" Opacity="0" />
+            <SvgPalette Name="" Index="3" Opacity="0" />
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="editors\spinright[0].svg" />
+          </SvgImageNames>
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="4" Layout="Vertical" ImageName="editors\spinright_glyph.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="1">
+              <SvgColor Name="Element2" Value="Black" />
+              <SvgColor Name="cls-10" Value="224,67,48" SkinColorId="Accent Paint" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="3" Opacity="0.5">
+              <SvgColor Name="st00" Value="224,67,48" SkinColorId="Brush Light" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="0">
+              <SvgColor Name="st00" Value="224,67,48" SkinColorId="Accent Paint" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="2">
+              <SvgColor Name="st00" Value="224,67,48" SkinColorId="Accent Paint" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="editors\spinright_glyph[0].svg" />
+            <SvgImage Index="1" Name="editors\spinright_glyph[1].svg" />
+          </SvgImageNames>
+        </Glyph>
+        <Properties>
+          <AllowTouch Value="True" ValueType="System.Boolean" />
+          <DxSolidColor Value="0:W=0x0;1:W=0x0;2:W=0x0;3:W=0x0;All" ValueType="System.String" />
+        </Properties>
+        <Size MinSize="Width=16,Height=10" />
+        <SizeTouch AllowScale="False" ScaleFactor="1" MinSize="Width=16,Height=16" />
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageSize="Width=64,Height=256" ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="editors\200dpi_spinright.png" />
+            <Glyph Stretch="NoResize" ImageCount="4" Layout="Vertical" ImageName="editors\200dpi_spinright_glyph.png" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </SpinRight>
+      <SpinUp>
+        <Image ImageSize="Width=32,Height=128" ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="editors\spinup.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0" Opacity="0" />
+            <SvgPalette Name="" Index="1" Opacity="0" />
+            <SvgPalette Name="" Index="2" Opacity="0" />
+            <SvgPalette Name="" Index="3" Opacity="0" />
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="editors\spinup[0].svg" />
+          </SvgImageNames>
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="4" Layout="Vertical" SvgImageSize="Width=16,Height=8" ImageName="editors\spinup_glyph.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="3" Opacity="0.5">
+              <SvgColor Name="st00" Value="224,67,48" SkinColorId="Brush Light" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="1">
+              <SvgColor Name="Element2" Value="Black" />
+              <SvgColor Name="cls-10" Value="224,67,48" SkinColorId="Accent Paint" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="0">
+              <SvgColor Name="st00" Value="224,67,48" SkinColorId="Accent Paint" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="2">
+              <SvgColor Name="st00" Value="224,67,48" SkinColorId="Accent Paint" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="editors\spinup_glyph[0].svg" />
+            <SvgImage Index="1" Name="editors\spinup_glyph[1].svg" />
+          </SvgImageNames>
+        </Glyph>
+        <Properties>
+          <AllowCompact Value="True" ValueType="System.Boolean" />
+          <AllowTouch Value="True" ValueType="System.Boolean" />
+          <DxSolidColor Value="0:W=0x0;1:W=0x0;2:W=0x0;3:W=0x0;All" ValueType="System.String" />
+        </Properties>
+        <Size MinSize="Width=16,Height=8" />
+        <SizeTouch AllowScale="False" ScaleFactor="1" MinSize="Width=16,Height=8" />
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageSize="Width=64,Height=256" ImageCount="4" Layout="Vertical" Stretch="Stretch" ImageName="editors\200dpi_spinup.png" />
+            <Glyph Stretch="NoResize" ImageCount="4" Layout="Vertical" SvgImageSize="Width=16,Height=8" ImageName="editors\200dpi_spinup_glyph.png" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </SpinUp>
+    </Elements>
+  </Skin3>
+  <Skin4 SkinProduct="Tab" BasedOn="The Bezier" SkinName="Winter Joy">
+    <Elements />
+  </Skin4>
+  <Skin5 SkinProduct="Grid" BasedOn="The Bezier" SkinName="Winter Joy">
+    <Elements />
+  </Skin5>
+  <Skin6 SkinProduct="Bars" BasedOn="The Bezier" SkinName="Winter Joy">
+    <Elements>
+      <Bar>
+        <Properties>
+          <AllowTouch Value="False" ValueType="System.Boolean" />
+          <ForeColorHot Value="@Brush (addl)" ValueType="System.Drawing.Color" />
+          <NoBorderForeColorHot Value="@Brush (addl)" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color BackColor="@Paint" ForeColor="@Brush" />
+      </Bar>
+      <Dock>
+        <ContentMargins Bottom="1" />
+        <Image ImageSize="Width=32,Height=32" ImageCount="1" Layout="Horizontal" Stretch="Stretch" SvgImageSize="Width=32,Height=32" ImageName="bars\dock.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0">
+              <SvgColor Name="Brush" Value="90,90,90" SkinColorId="Brush Major" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="bars\dock[0].svg" />
+          </SvgImageNames>
+          <SizingMargins Bottom="1" />
+        </Image>
+        <Properties>
+          <AllowTouch Value="False" ValueType="System.Boolean" />
+          <DxSolidColor Value="0:4=0xFFEDF8FC;0:7=0xFFBFD0D6;All" ValueType="System.String" />
+        </Properties>
+        <Color BackColor="@Paint" />
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageSize="Width=64,Height=64" ImageCount="1" Layout="Horizontal" Stretch="Stretch" SvgImageSize="Width=32,Height=32" ImageName="bars\200dpi_dock.png">
+              <SizingMargins Bottom="2" />
+            </Image>
+            <Color BackColor="@Paint" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </Dock>
+      <MainMenu>
+        <Image ImageCount="1" Layout="Vertical" Stretch="Tile" TileImageDrawMode="LeftBottom" SvgImageSize="Width=128,Height=32" ImageName="bars\mainmenu.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="1">
+              <SvgColor Name="st00" Value="128,180,193" SkinColorId="Key Paint" />
+              <SvgColor Name="st10" Value="109,51,8" SkinColorId="Brown" />
+              <SvgColor Name="st20" Value="77,142,110" SkinColorId="Green" />
+              <SvgColor Name="st30" Value="249,129,21" SkinColorId="Orange" />
+              <SvgColor Name="st40" Value="White" SkinColorId="White" />
+              <SvgColor Name="st50" Value="255,204,77" SkinColorId="Yellow" />
+              <SvgColor Name="st41" Value="White" SkinColorId="Key Brush" />
+              <SvgColor Name="st60" Value="164,215,224" SkinColorId="Key Brush Light" Opacity="0.75" />
+              <SvgColor Name="st42" Value="White" SkinColorId="Paint" />
+              <SvgColor Name="st51" Value="255,204,77" SkinColorId="Yellow" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="2">
+              <SvgColor Name="st00" Value="128,180,193" SkinColorId="Key Paint" />
+              <SvgColor Name="st10" Value="109,51,8" SkinColorId="Brown" />
+              <SvgColor Name="st20" Value="77,142,110" SkinColorId="Green" />
+              <SvgColor Name="st30" Value="249,129,21" SkinColorId="Orange" />
+              <SvgColor Name="st40" Value="White" SkinColorId="White" />
+              <SvgColor Name="st50" Value="255,204,77" SkinColorId="Yellow" />
+              <SvgColor Name="st41" Value="White" SkinColorId="Key Brush" />
+              <SvgColor Name="st60" Value="164,215,224" SkinColorId="Key Brush Light" Opacity="0.75" />
+              <SvgColor Name="st42" Value="White" SkinColorId="Paint" />
+              <SvgColor Name="st51" Value="255,204,77" SkinColorId="Yellow" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="0">
+              <SvgColor Name="st00" Value="White" SkinColorId="Key Paint" />
+              <SvgColor Name="Element2" Value="Black" SkinColorId="Key Brush Light" />
+              <SvgColor Name="Element3" Value="Black" SkinColorId="Paint" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="bars\mainmenu[0].svg" />
+          </SvgImageNames>
+          <SizingMargins Bottom="30" />
+        </Image>
+        <Properties>
+          <AllowCompact Value="False" ValueType="System.Boolean" />
+          <AllowTouch Value="False" ValueType="System.Boolean" />
+          <ForeColorDisabled Value="@Key Brush Light" ValueType="System.Drawing.Color" />
+          <ForeColorHot Value="@Key Brush" ValueType="System.Drawing.Color" />
+          <ForeColorPressed Value="@Key Brush" ValueType="System.Drawing.Color" />
+          <ForeColorSelected Value="@Key Brush" ValueType="System.Drawing.Color" />
+          <ScaleImage Value="True" ValueType="System.Boolean" />
+        </Properties>
+        <Color BackColor="@Key Paint" ForeColor="@Key Brush" />
+        <SvgPalette>
+          <SvgPalette Name="Normal">
+            <SvgColor Name="Black" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Blue" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Green" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Yellow" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Red" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="White" Value="71,71,71" SkinColorId="Key Paint" />
+          </SvgPalette>
+        </SvgPalette>
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageCount="1" Layout="Vertical" Stretch="Tile" TileImageDrawMode="LeftBottom" SvgImageSize="Width=128,Height=32" ImageName="bars\200dpi_mainmenu.png">
+              <SizingMargins Bottom="60" />
+            </Image>
+            <Color BackColor="@Key Paint" ForeColor="@Key Brush" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </MainMenu>
+      <MainMenuCustomize>
+        <ContentMargins Left="5" Right="5" />
+        <ContentMarginsCompact Left="3" Right="3" />
+        <Image ImageCount="1" Layout="Vertical" Stretch="Tile" TileImageDrawMode="RightBottom" SvgImageSize="Width=128,Height=32" ImageName="bars\mainmenucustomize.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="1">
+              <SvgColor Name="st00" Value="128,180,193" SkinColorId="Key Paint" />
+              <SvgColor Name="st10" Value="109,51,8" SkinColorId="Brown" />
+              <SvgColor Name="st20" Value="77,142,110" SkinColorId="Green" />
+              <SvgColor Name="st30" Value="249,129,21" SkinColorId="Orange" />
+              <SvgColor Name="st40" Value="White" SkinColorId="White" />
+              <SvgColor Name="st50" Value="255,204,77" SkinColorId="Yellow" />
+              <SvgColor Name="st41" Value="White" SkinColorId="Key Brush" />
+              <SvgColor Name="st60" Value="164,215,224" SkinColorId="Key Brush Light" Opacity="0.75" />
+              <SvgColor Name="st42" Value="White" SkinColorId="Paint" />
+              <SvgColor Name="st51" Value="255,204,77" SkinColorId="Yellow" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="2">
+              <SvgColor Name="st00" Value="128,180,193" SkinColorId="Key Paint" />
+              <SvgColor Name="st10" Value="109,51,8" SkinColorId="Brown" />
+              <SvgColor Name="st20" Value="77,142,110" SkinColorId="Green" />
+              <SvgColor Name="st30" Value="249,129,21" SkinColorId="Orange" />
+              <SvgColor Name="st40" Value="White" SkinColorId="White" />
+              <SvgColor Name="st50" Value="255,204,77" SkinColorId="Yellow" />
+              <SvgColor Name="st41" Value="White" SkinColorId="Key Brush" />
+              <SvgColor Name="st60" Value="164,215,224" SkinColorId="Key Brush Light" Opacity="0.75" />
+              <SvgColor Name="st42" Value="White" SkinColorId="Paint" />
+              <SvgColor Name="st51" Value="255,204,77" SkinColorId="Yellow" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="0">
+              <SvgColor Name="st00" Value="White" SkinColorId="Key Paint" />
+              <SvgColor Name="Element2" Value="Black" SkinColorId="Key Brush Light" />
+              <SvgColor Name="Element3" Value="Black" SkinColorId="Paint" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="bars\mainmenucustomize[0].svg" />
+          </SvgImageNames>
+          <SizingMargins Bottom="30" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="2" Layout="Vertical" ImageName="bars\mainmenucustomize_glyph.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0" Opacity="0.5">
+              <SvgColor Name="Mask" Value="0,0,0" SkinColorId="Key Brush" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="1">
+              <SvgColor Name="Mask" Value="0,0,0" SkinColorId="Key Brush" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="bars\mainmenucustomize_glyph[0].svg" />
+          </SvgImageNames>
+        </Glyph>
+        <Properties>
+          <AllowCompact Value="True" ValueType="System.Boolean" />
+          <AllowTouch Value="True" ValueType="System.Boolean" />
+          <ScaleImage Value="True" ValueType="System.Boolean" />
+        </Properties>
+        <SizeTouch AllowScale="False" ScaleFactor="1" MinSize="Width=13,Height=13" />
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageCount="1" Layout="Vertical" Stretch="Tile" TileImageDrawMode="RightBottom" SvgImageSize="Width=128,Height=32" ImageName="bars\200dpi_mainmenucustomize.png">
+              <SizingMargins Bottom="60" />
+            </Image>
+            <Glyph Stretch="NoResize" ImageCount="2" Layout="Vertical" ImageName="bars\200dpi_mainmenucustomize_glyph.png" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </MainMenuCustomize>
+      <MainMenuDrag>
+        <ContentMargins Left="3" Right="3" />
+        <Image ImageCount="1" Layout="Vertical" Stretch="Tile" TileImageDrawMode="RightBottom" SvgImageSize="Width=128,Height=32" ImageName="bars\mainmenudrag.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="1">
+              <SvgColor Name="st00" Value="128,180,193" SkinColorId="Key Paint" />
+              <SvgColor Name="st10" Value="109,51,8" SkinColorId="Brown" />
+              <SvgColor Name="st20" Value="77,142,110" SkinColorId="Green" />
+              <SvgColor Name="st30" Value="249,129,21" SkinColorId="Orange" />
+              <SvgColor Name="st40" Value="White" SkinColorId="White" />
+              <SvgColor Name="st50" Value="255,204,77" SkinColorId="Yellow" />
+              <SvgColor Name="st41" Value="White" SkinColorId="Key Brush" />
+              <SvgColor Name="st60" Value="164,215,224" SkinColorId="Key Brush Light" Opacity="0.75" />
+              <SvgColor Name="st42" Value="White" SkinColorId="Paint" />
+              <SvgColor Name="st51" Value="255,204,77" SkinColorId="Yellow" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="2">
+              <SvgColor Name="st00" Value="128,180,193" SkinColorId="Key Paint" />
+              <SvgColor Name="st10" Value="109,51,8" SkinColorId="Brown" />
+              <SvgColor Name="st20" Value="77,142,110" SkinColorId="Green" />
+              <SvgColor Name="st30" Value="249,129,21" SkinColorId="Orange" />
+              <SvgColor Name="st40" Value="White" SkinColorId="White" />
+              <SvgColor Name="st50" Value="255,204,77" SkinColorId="Yellow" />
+              <SvgColor Name="st41" Value="White" SkinColorId="Key Brush" />
+              <SvgColor Name="st60" Value="164,215,224" SkinColorId="Key Brush Light" Opacity="0.75" />
+              <SvgColor Name="st42" Value="White" SkinColorId="Paint" />
+              <SvgColor Name="st51" Value="255,204,77" SkinColorId="Yellow" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="0">
+              <SvgColor Name="st00" Value="White" SkinColorId="Key Paint" />
+              <SvgColor Name="Element2" Value="Black" SkinColorId="Key Brush Light" />
+              <SvgColor Name="Element3" Value="Black" SkinColorId="Paint" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="bars\mainmenudrag[0].svg" />
+          </SvgImageNames>
+          <SizingMargins Bottom="30" />
+        </Image>
+        <Glyph Stretch="NoResize" ImageCount="1" Layout="Horizontal" ImageName="bars\mainmenudrag_glyph.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0">
+              <SvgColor Name="Mask1" Value="112,112,112" SkinColorId="Key Brush Light" />
+              <SvgColor Name="Mask" Value="0,0,0" SkinColorId="Key Brush Light" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="bars\mainmenudrag_glyph[0].svg" />
+          </SvgImageNames>
+        </Glyph>
+        <Properties>
+          <AllowTouch Value="True" ValueType="System.Boolean" />
+          <ScaleImage Value="True" ValueType="System.Boolean" />
+        </Properties>
+        <SizeTouch AllowScale="False" ScaleFactor="1" MinSize="Width=9,Height=10" />
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageCount="1" Layout="Vertical" Stretch="Tile" TileImageDrawMode="RightBottom" SvgImageSize="Width=128,Height=32" ImageName="bars\200dpi_mainmenudrag.png">
+              <SizingMargins Bottom="60" />
+            </Image>
+            <Glyph Stretch="NoResize" ImageCount="1" Layout="Horizontal" ImageName="bars\200dpi_mainmenudrag_glyph.png" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </MainMenuDrag>
+      <MainMenuLinkSelected>
+        <ContentMargins Bottom="20" Top="20" Left="10" Right="10" />
+        <ContentMarginsCompact Top="2" Bottom="2" />
+        <Image ImageCount="2" Layout="Vertical" Stretch="Tile" SvgImageSize="Width=120,Height=80" ImageName="bars\mainmenulinkselected.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0">
+              <SvgColor Name="st00" Value="30,16,4" SkinColorId="Paint" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="1">
+              <SvgColor Name="st00" Value="30,16,4" SkinColorId="Key Brush Light" Opacity="0.5" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="2" Opacity="0.25">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Key Brush" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="3" Opacity="0.25">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Key Brush" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="4" Opacity="0">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Key Brush" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="bars\mainmenulinkselected[0].svg" />
+          </SvgImageNames>
+          <SizingMargins Top="68" />
+        </Image>
+        <Properties>
+          <AllowCompact Value="True" ValueType="System.Boolean" />
+          <AllowTouch Value="True" ValueType="System.Boolean" />
+          <ScaleImage Value="True" ValueType="System.Boolean" />
+        </Properties>
+        <Color ForeColor="@Key Brush" />
+        <SizeTouch AllowScale="False" ScaleFactor="1" MinSize="Width=15,Height=15" />
+        <SvgPalette>
+          <SvgPalette Name="Normal">
+            <SvgColor Name="Black" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Blue" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Green" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Yellow" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Red" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="White" Value="71,71,71" SkinColorId="Key Paint" />
+          </SvgPalette>
+          <SvgPalette Name="Disabled">
+            <SvgColor Name="Black" Value="150,150,150" SkinColorId="Key Brush Light" />
+            <SvgColor Name="Blue" Value="150,150,150" SkinColorId="Key Brush Light" />
+            <SvgColor Name="Green" Value="150,150,150" SkinColorId="Key Brush Light" />
+            <SvgColor Name="Red" Value="150,150,150" SkinColorId="Key Brush Light" />
+            <SvgColor Name="Yellow" Value="150,150,150" SkinColorId="Key Brush Light" />
+            <SvgColor Name="White" Value="71,71,71" SkinColorId="Key Paint" />
+          </SvgPalette>
+        </SvgPalette>
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageCount="2" Layout="Vertical" Stretch="Tile" SvgImageSize="Width=120,Height=80" ImageName="bars\200dpi_mainmenulinkselected.png">
+              <SizingMargins Top="136" />
+            </Image>
+            <Color ForeColor="@Key Brush" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </MainMenuLinkSelected>
+      <StandaloneDock>
+        <Properties>
+          <AllowTouch Value="False" ValueType="System.Boolean" />
+        </Properties>
+        <Color BackColor="@Paint" />
+      </StandaloneDock>
+    </Elements>
+  </Skin6>
+  <Skin7 SkinProduct="MetroUI" BasedOn="The Bezier" SkinName="Winter Joy">
+    <Elements />
+  </Skin7>
+  <Skin8 SkinProduct="Docking" BasedOn="The Bezier" SkinName="Winter Joy">
+    <Elements />
+  </Skin8>
+  <Skin9 SkinProduct="VGrid" BasedOn="The Bezier" SkinName="Winter Joy">
+    <Elements />
+  </Skin9>
+  <Skin10 SkinProduct="Scheduler" BasedOn="The Bezier" SkinName="Winter Joy">
+    <Elements />
+  </Skin10>
+  <Skin11 SkinProduct="NavPane" BasedOn="The Bezier" SkinName="Winter Joy">
+    <Elements>
+      <GroupClient>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" SvgImageSize="Width=300,Height=400" ImageName="navpane\groupclient.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0">
+              <SvgColor Name="st00" Value="178,226,234" SkinColorId="Paint Shadow" />
+              <SvgColor Name="st10" Value="128,180,193" SkinColorId="Paint Deep Shadow" />
+              <SvgColor Name="st20" Value="109,51,8" SkinColorId="Brown" />
+              <SvgColor Name="st30" Value="White" SkinColorId="Real White" />
+              <SvgColor Name="st01" Value="178,226,234" SkinColorId="Blue" Opacity="0.35" />
+              <SvgColor Name="st21" Value="109,51,8" SkinColorId="Brown" />
+              <SvgColor Name="st40" Value="30,16,4" SkinColorId="Real Black" />
+              <SvgColor Name="st50" Value="224,67,48" SkinColorId="Red" />
+              <SvgColor Name="st41" Value="30,16,4" SkinColorId="Real Black" Opacity="0.35" />
+              <SvgColor Name="st51" Value="224,67,48" SkinColorId="Red" />
+              <SvgColor Name="st42" Value="30,16,4" SkinColorId="Real Black" Opacity="0.35" />
+              <SvgColor Name="st31" Value="White" SkinColorId="Real White" />
+              <SvgColor Name="st02" Value="178,226,234" SkinColorId="Blue" Opacity="0.35" />
+              <SvgColor Name="st60" Value="249,129,21" SkinColorId="Orange" />
+              <SvgColor Name="st43" Value="30,16,4" SkinColorId="Real Black" />
+              <SvgColor Name="st70" Value="255,204,77" SkinColorId="Yellow" />
+              <SvgColor Name="st44" Value="30,16,4" SkinColorId="Real Black" Opacity="0.35" />
+              <SvgColor Name="st32" Value="White" SkinColorId="Real White" />
+              <SvgColor Name="st45" Value="30,16,4" SkinColorId="Real Black" Opacity="0.35" />
+              <SvgColor Name="st22" Value="109,51,8" SkinColorId="Brown" />
+              <SvgColor Name="st80" Value="77,142,110" SkinColorId="Green" />
+              <SvgColor Name="st61" Value="249,129,21" SkinColorId="Orange" />
+              <SvgColor Name="st72" Value="255,204,77" SkinColorId="Yellow" />
+              <SvgColor Name="st11" Value="128,180,193" SkinColorId="Blue" />
+              <SvgColor Name="st73" Value="255,204,77" SkinColorId="Yellow" />
+              <SvgColor Name="st12" Value="128,180,193" SkinColorId="Paint Deep Shadow" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="navpane\groupclient[0].svg" />
+          </SvgImageNames>
+          <SizingMargins Bottom="398" Left="290" />
+        </Image>
+        <Properties>
+          <AllowTouch Value="False" ValueType="System.Boolean" />
+          <DxSolidColor Value="0:3=0x0;0:4=0x0;0:7=0x0;" ValueType="System.String" />
+          <ScaleImage Value="True" ValueType="System.Boolean" />
+        </Properties>
+        <Color BackColor="@Paint" ForeColor="@Brush" />
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" SvgImageSize="Width=300,Height=400" ImageName="navpane\200dpi_groupclient.png">
+              <SizingMargins Bottom="796" Left="580" />
+            </Image>
+            <Color BackColor="@Paint" ForeColor="@Brush" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </GroupClient>
+    </Elements>
+  </Skin11>
+  <Skin12 SkinProduct="Form" BasedOn="The Bezier" SkinName="Winter Joy">
+    <Elements>
+      <FormDecoratorFrameBottom>
+        <Image ImageCount="2" Layout="Vertical" Stretch="Tile" ImageName="form\formdecoratorframebottom.png">
+          <SizingMargins Top="1" Left="85" Right="85" />
+        </Image>
+        <Properties>
+          <ScaleImage Value="True" ValueType="System.Boolean" />
+        </Properties>
+        <Size MinSize="Width=0,Height=0" />
+        <SizeTouch AllowScale="False" ScaleFactor="1" MinSize="Width=5,Height=0" />
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageCount="2" Layout="Vertical" Stretch="Tile" ImageName="form\200dpi_formdecoratorframebottom.png">
+              <SizingMargins Top="2" Left="170" Right="170" />
+            </Image>
+          </ScaleInfo>
+        </ScaleInfo>
+      </FormDecoratorFrameBottom>
+      <FormDecoratorFrameLeft>
+        <Image ImageCount="2" Layout="Horizontal" Stretch="Tile" ImageName="form\formdecoratorframeleft.png">
+          <SizingMargins Bottom="150" Top="150" Right="1" />
+        </Image>
+        <Properties>
+          <AllowTouch Value="False" ValueType="System.Boolean" />
+          <ScaleImage Value="True" ValueType="System.Boolean" />
+        </Properties>
+        <Size MinSize="Width=0,Height=0" />
+        <SizeTouch AllowScale="False" ScaleFactor="1" MinSize="Width=5,Height=0" />
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageCount="2" Layout="Horizontal" Stretch="Tile" ImageName="form\200dpi_formdecoratorframeleft.png">
+              <SizingMargins Bottom="300" Top="300" Right="2" />
+            </Image>
+          </ScaleInfo>
+        </ScaleInfo>
+      </FormDecoratorFrameLeft>
+      <FormDecoratorFrameRight>
+        <Image ImageCount="2" Layout="Horizontal" Stretch="Tile" ImageName="form\formdecoratorframeright.png">
+          <SizingMargins Bottom="150" Top="150" Left="1" />
+        </Image>
+        <Properties>
+          <ScaleImage Value="True" ValueType="System.Boolean" />
+        </Properties>
+        <SizeTouch AllowScale="False" ScaleFactor="1" MinSize="Width=5,Height=0" />
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageCount="2" Layout="Horizontal" Stretch="Tile" ImageName="form\200dpi_formdecoratorframeright.png">
+              <SizingMargins Bottom="300" Top="300" Left="2" />
+            </Image>
+          </ScaleInfo>
+        </ScaleInfo>
+      </FormDecoratorFrameRight>
+      <FormDecoratorFrameTop>
+        <Image ImageCount="2" Layout="Vertical" Stretch="Tile" ImageName="form\formdecoratorframetop.png">
+          <SizingMargins Bottom="1" Left="85" Right="85" />
+        </Image>
+        <Properties>
+          <AllowTouch Value="False" ValueType="System.Boolean" />
+          <ScaleImage Value="True" ValueType="System.Boolean" />
+        </Properties>
+        <Size MinSize="Width=0,Height=0" />
+        <SizeTouch AllowScale="False" ScaleFactor="1" MinSize="Width=5,Height=0" />
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageCount="2" Layout="Vertical" Stretch="Tile" ImageName="form\200dpi_formdecoratorframetop.png">
+              <SizingMargins Bottom="2" Left="170" Right="170" />
+            </Image>
+          </ScaleInfo>
+        </ScaleInfo>
+      </FormDecoratorFrameTop>
+    </Elements>
+  </Skin12>
+  <Skin13 SkinProduct="Reports" BasedOn="The Bezier" SkinName="Winter Joy">
+    <Elements />
+  </Skin13>
+  <Skin14 SkinProduct="Ribbon" BasedOn="The Bezier" SkinName="Winter Joy">
+    <Elements>
+      <ButtonArrowInStatusBar>
+        <Image ImageCount="4" Layout="Vertical" Stretch="NoResize" ImageName="ribbon\buttonarrowinstatusbar.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0" Opacity="0.75">
+              <SvgColor Name="Mask" Value="0,0,0" SkinColorId="Brush" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="1" Opacity="0.75">
+              <SvgColor Name="Mask" Value="0,0,0" SkinColorId="Brush" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="2" Opacity="0.75">
+              <SvgColor Name="Mask" Value="0,0,0" SkinColorId="Brush" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="3" Opacity="0.25">
+              <SvgColor Name="Mask" Value="0,0,0" SkinColorId="Brush" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="ribbon\buttonarrowinstatusbar[0].svg" />
+          </SvgImageNames>
+        </Image>
+        <Properties>
+          <AllowTouch Value="False" ValueType="System.Boolean" />
+        </Properties>
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageCount="4" Layout="Vertical" Stretch="NoResize" ImageName="ribbon\200dpi_buttonarrowinstatusbar.png" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </ButtonArrowInStatusBar>
+      <ButtonGroupSplitButton2InStatusBar>
+        <ContentMargins Bottom="5" Top="5" Left="3" Right="3" />
+        <ContentMarginsCompact Left="2" Right="2" Top="3" Bottom="3" />
+        <Image ImageSize="Width=32,Height=160" ImageCount="5" Layout="Vertical" Stretch="Stretch" SvgImageSize="Width=32,Height=32" ImageName="ribbon\buttongroupsplitbutton2instatusbar.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0" Opacity="0">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Paint Deep Shadow" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="1">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Paint Deep Shadow" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="2" Opacity="0.5">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Paint Deep Shadow" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="3" Opacity="0.5">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Paint Deep Shadow" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="4">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Accent Paint" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="5" Opacity="0.15">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Key Brush" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="ribbon\buttongroupsplitbutton2instatusbar[0].svg" />
+          </SvgImageNames>
+        </Image>
+        <Properties>
+          <AllowCompact Value="True" ValueType="System.Boolean" />
+          <AllowTouch Value="True" ValueType="System.Boolean" />
+          <DxSolidColor Value="0:W=0x0;1:W=0xFFBAE3F2;2:W=0x80B9E3F1;3:W=0x80B9E3F1;4:W=0xFFE04330;All" ValueType="System.String" />
+          <ForeColor Value="@Brush" ValueType="System.Drawing.Color" />
+          <ForeColorChecked Value="@Accent Brush" ValueType="System.Drawing.Color" />
+          <ForeColorDisabled Value="@Brush Light" ValueType="System.Drawing.Color" />
+          <ForeColorHot Value="@Brush" ValueType="System.Drawing.Color" />
+          <ForeColorHotChecked Value="@Accent Brush" ValueType="System.Drawing.Color" />
+          <ForeColorPressed Value="@Brush" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color ForeColor="@Key Brush" />
+        <SizeTouch AllowScale="False" ScaleFactor="1" MinSize="Width=20,Height=20" />
+        <SvgPalette>
+          <SvgPalette Name="Selected">
+            <SvgColor Name="White" Value="23,107,209" SkinColorId="Accent Paint" />
+            <SvgColor Name="Yellow" Value="255,255,255" SkinColorId="Accent Brush" />
+            <SvgColor Name="Red" Value="255,255,255" SkinColorId="Accent Brush" />
+            <SvgColor Name="Green" Value="255,255,255" SkinColorId="Accent Brush" />
+            <SvgColor Name="Blue" Value="255,255,255" SkinColorId="Accent Brush" />
+            <SvgColor Name="Black" Value="255,255,255" SkinColorId="Accent Brush" />
+          </SvgPalette>
+          <SvgPalette Name="Disabled">
+            <SvgColor Name="White" Value="71,71,71" SkinColorId="Key Paint" />
+            <SvgColor Name="Black" Value="150,150,150" SkinColorId="Key Brush Light" />
+            <SvgColor Name="Blue" Value="150,150,150" SkinColorId="Key Brush Light" />
+            <SvgColor Name="Green" Value="150,150,150" SkinColorId="Key Brush Light" />
+            <SvgColor Name="Red" Value="150,150,150" SkinColorId="Key Brush Light" />
+            <SvgColor Name="Yellow" Value="150,150,150" SkinColorId="Key Brush Light" />
+          </SvgPalette>
+          <SvgPalette Name="Normal">
+            <SvgColor Name="White" Value="71,71,71" SkinColorId="Key Paint" />
+            <SvgColor Name="Yellow" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Red" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Green" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Blue" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Black" Value="255,255,255" SkinColorId="Key Brush" />
+          </SvgPalette>
+        </SvgPalette>
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageSize="Width=64,Height=320" ImageCount="5" Layout="Vertical" Stretch="Stretch" SvgImageSize="Width=32,Height=32" ImageName="ribbon\200dpi_buttongroupsplitbutton2instatusbar.png" />
+            <Color ForeColor="@Key Brush" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </ButtonGroupSplitButton2InStatusBar>
+      <ButtonGroupSplitButtonInStatusBar>
+        <ContentMargins Bottom="5" Top="5" Left="7" Right="7" />
+        <ContentMarginsCompact Left="4" Right="4" Top="3" Bottom="3" />
+        <Image ImageSize="Width=32,Height=160" ImageCount="5" Layout="Vertical" Stretch="Stretch" SvgImageSize="Width=32,Height=32" ImageName="ribbon\buttongroupsplitbuttoninstatusbar.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0" Opacity="0">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Paint Deep Shadow" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="1">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Paint Deep Shadow" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="2" Opacity="0.5">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Paint Deep Shadow" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="3" Opacity="0.5">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Paint Deep Shadow" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="4">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Accent Paint" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="5" Opacity="0.15">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Key Brush" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="ribbon\buttongroupsplitbuttoninstatusbar[0].svg" />
+          </SvgImageNames>
+        </Image>
+        <Properties>
+          <AllowTouch Value="True" ValueType="System.Boolean" />
+          <DxSolidColor Value="0:W=0x0;1:W=0xFFBAE3F2;2:W=0x80B9E3F1;3:W=0x80B9E3F1;4:W=0xFFE04330;All" ValueType="System.String" />
+          <ForeColor Value="@Brush" ValueType="System.Drawing.Color" />
+          <ForeColorChecked Value="@Accent Brush" ValueType="System.Drawing.Color" />
+          <ForeColorDisabled Value="@Brush Light" ValueType="System.Drawing.Color" />
+          <ForeColorHot Value="@Brush" ValueType="System.Drawing.Color" />
+          <ForeColorHotChecked Value="@Accent Brush" ValueType="System.Drawing.Color" />
+          <ForeColorPressed Value="@Brush" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color ForeColor="@Key Brush" />
+        <SizeTouch AllowScale="False" ScaleFactor="1" MinSize="Width=20,Height=20" />
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageSize="Width=64,Height=320" ImageCount="5" Layout="Vertical" Stretch="Stretch" SvgImageSize="Width=32,Height=32" ImageName="ribbon\200dpi_buttongroupsplitbuttoninstatusbar.png" />
+            <Color ForeColor="@Key Brush" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </ButtonGroupSplitButtonInStatusBar>
+      <ContextTabHeaderPage>
+        <ContentMargins Bottom="24" Top="32" Left="12" Right="12" />
+        <ContentMarginsTouch Bottom="3" Top="4" Left="6" Right="6" />
+        <Image ImageSize="Width=32,Height=32" ImageCount="1" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\contexttabheaderpage.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0" Opacity="0">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Key Paint" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="1">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Key Paint" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="2">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Key Paint" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="3">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Key Paint" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="4">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Key Paint" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="ribbon\contexttabheaderpage[0].svg" />
+          </SvgImageNames>
+        </Image>
+        <Properties>
+          <AllowCompact Value="True" ValueType="System.Boolean" />
+          <AllowTouch Value="True" ValueType="System.Boolean" />
+          <DxSolidColor Value="0:W=0x0;All" ValueType="System.String" />
+          <ForeColorSelected Value="@Key Brush" ValueType="System.Drawing.Color" />
+          <UseColor Value="False" ValueType="System.Boolean" />
+        </Properties>
+        <Color ForeColor="@Key Brush" />
+        <SizeTouch AllowScale="False" ScaleFactor="1" MinSize="Width=15,Height=15" />
+        <SvgPalette>
+          <SvgPalette Name="Normal">
+            <SvgColor Name="Black" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Blue" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Green" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Yellow" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Red" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="White" Value="71,71,71" SkinColorId="Key Paint" />
+          </SvgPalette>
+        </SvgPalette>
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageSize="Width=64,Height=64" ImageCount="1" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\200dpi_contexttabheaderpage.png" />
+            <Color ForeColor="@Key Brush" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </ContextTabHeaderPage>
+      <ContextTabHeaderPageMask>
+        <ContentMargins Bottom="24" Top="32" Left="12" Right="12" />
+        <ContentMarginsTouch Bottom="3" Top="4" Left="6" Right="6" />
+        <Image ImageCount="5" Layout="Vertical" Stretch="Tile" SvgImageSize="Width=162,Height=102" ImageName="ribbon\contexttabheaderpagemask.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0" Opacity="0">
+              <SvgColor Name="st00" Value="30,16,4" SkinColorId="Key Brush" Opacity="0.5" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="1">
+              <SvgColor Name="st00" Value="30,16,4" SkinColorId="Key Brush" Opacity="0.5" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="2" Opacity="0">
+              <SvgColor Name="st00" Value="30,16,4" SkinColorId="Key Brush" Opacity="0.5" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="3">
+              <SvgColor Name="st00" Value="30,16,4" SkinColorId="Key Brush" Opacity="0.25" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="4">
+              <SvgColor Name="st00" Value="30,16,4" SkinColorId="Key Brush" Opacity="0.25" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="ribbon\contexttabheaderpagemask[0].svg" />
+          </SvgImageNames>
+          <SizingMargins Top="100" />
+        </Image>
+        <Properties>
+          <AllowCompact Value="True" ValueType="System.Boolean" />
+          <AllowTouch Value="True" ValueType="System.Boolean" />
+          <ForeColorHot Value="" ValueType="System.Drawing.Color" />
+          <ForeColorSelected Value="@Key Brush" ValueType="System.Drawing.Color" />
+          <LeftXIndent Value="10" ValueType="System.Int32" />
+          <RightXIndent Value="10" ValueType="System.Int32" />
+          <ScaleImage Value="True" ValueType="System.Boolean" />
+        </Properties>
+        <Color FontBold="True" ForeColor="@Key Brush" />
+        <SizeTouch AllowScale="False" ScaleFactor="1" MinSize="Width=15,Height=15" />
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageCount="5" Layout="Vertical" Stretch="Tile" SvgImageSize="Width=162,Height=102" ImageName="ribbon\200dpi_contexttabheaderpagemask.png">
+              <SizingMargins Top="200" />
+            </Image>
+            <Properties>
+              <LeftXIndent Value="20" ValueType="System.Int32" />
+              <RightXIndent Value="20" ValueType="System.Int32" />
+            </Properties>
+            <Color FontBold="True" ForeColor="@Key Brush" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </ContextTabHeaderPageMask>
+      <ContextTabPanel>
+        <ContentMargins Bottom="1" />
+        <Image ImageSize="Width=32,Height=32" ImageCount="1" Layout="Horizontal" Stretch="Stretch" SvgImageSize="Width=32,Height=32" ImageName="ribbon\contexttabpanel.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0">
+              <SvgColor Name="Brush" Value="90,90,90" SkinColorId="Brush Major" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="ribbon\contexttabpanel[0].svg" />
+          </SvgImageNames>
+          <SizingMargins Bottom="1" />
+        </Image>
+        <Properties>
+          <AllowTouch Value="False" ValueType="System.Boolean" />
+          <DxSolidColor Value="0:4=0xFFEDF8FC;0:7=0xFFBFD0D6;All" ValueType="System.String" />
+        </Properties>
+        <Color BackColor="@Paint Shadow" />
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageSize="Width=64,Height=64" ImageCount="1" Layout="Horizontal" Stretch="Stretch" SvgImageSize="Width=32,Height=32" ImageName="ribbon\200dpi_contexttabpanel.png">
+              <SizingMargins Bottom="2" />
+            </Image>
+            <Color BackColor="@Paint Shadow" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </ContextTabPanel>
+      <FormCaption>
+        <ContentMargins Bottom="10" Left="8" />
+        <ContentMarginsCompact Top="0" Bottom="0" />
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" SvgImageSize="Width=768,Height=40" ImageName="ribbon\formcaption.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="1">
+              <SvgColor Name="st00" Value="128,180,193" SkinColorId="Key Paint" />
+              <SvgColor Name="st20" Value="77,142,110" SkinColorId="Green" />
+              <SvgColor Name="st30" Value="249,129,21" SkinColorId="Orange" />
+              <SvgColor Name="st40" Value="White" SkinColorId="Real White" />
+              <SvgColor Name="st41" Value="White" SkinColorId="Key Brush" />
+              <SvgColor Name="st51" Value="255,204,77" SkinColorId="Yellow" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="0">
+              <SvgColor Name="st00" Value="128,180,193" SkinColorId="Key Paint" />
+              <SvgColor Name="st20" Value="77,142,110" SkinColorId="Green" />
+              <SvgColor Name="st30" Value="249,129,21" SkinColorId="Orange" />
+              <SvgColor Name="st40" Value="White" SkinColorId="Real White" />
+              <SvgColor Name="st41" Value="White" SkinColorId="Key Brush" />
+              <SvgColor Name="st51" Value="255,204,77" SkinColorId="Yellow" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="ribbon\formcaption[0].svg" />
+          </SvgImageNames>
+          <SizingMargins Bottom="30" Right="640" />
+        </Image>
+        <Properties>
+          <AllowCompact Value="True" ValueType="System.Boolean" />
+          <AllowTouch Value="False" ValueType="System.Boolean" />
+          <DxSolidColor Value="0:4=0xFF73B5CE;0:5=0xFF73B5CE;0:7=0xFF73B5CE;1:4=0xFF73B5CE;1:5=0xFF73B5CE;1:7=0xFF73B5CE;" ValueType="System.String" />
+          <FontDelta Value="0" ValueType="System.Int32" />
+          <ForeColor2 Value="@Key Brush" ValueType="System.Drawing.Color" />
+          <ForeColorInactive Value="@Key Brush Light" ValueType="System.Drawing.Color" />
+          <ScaleImage Value="True" ValueType="System.Boolean" />
+        </Properties>
+        <Color FontBold="True" ForeColor="@Key Brush Light" />
+        <SvgPalette>
+          <SvgPalette Name="Normal">
+            <SvgColor Name="Black" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Blue" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Green" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Yellow" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Red" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="White" Value="71,71,71" SkinColorId="Key Paint" />
+          </SvgPalette>
+          <SvgPalette Name="Disabled">
+            <SvgColor Name="Black" Value="150,150,150" SkinColorId="Key Brush Light" />
+            <SvgColor Name="Yellow" Value="150,150,150" SkinColorId="Key Brush Light" />
+            <SvgColor Name="Red" Value="150,150,150" SkinColorId="Key Brush Light" />
+            <SvgColor Name="Green" Value="150,150,150" SkinColorId="Key Brush Light" />
+            <SvgColor Name="Blue" Value="150,150,150" SkinColorId="Key Brush Light" />
+          </SvgPalette>
+        </SvgPalette>
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" SvgImageSize="Width=768,Height=40" ImageName="ribbon\200dpi_formcaption.png">
+              <SizingMargins Bottom="60" Right="1280" />
+            </Image>
+            <Color FontBold="True" ForeColor="@Key Brush Light" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </FormCaption>
+      <SplitButton2InStatusBar>
+        <ContentMargins Bottom="5" Top="5" Left="3" Right="3" />
+        <ContentMarginsCompact Left="2" Right="2" Top="3" Bottom="3" />
+        <Image ImageSize="Width=32,Height=160" ImageCount="5" Layout="Vertical" Stretch="Stretch" SvgImageSize="Width=32,Height=32" ImageName="ribbon\splitbutton2instatusbar.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0" Opacity="0">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Paint Deep Shadow" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="1">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Paint Deep Shadow" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="2" Opacity="0.5">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Paint Deep Shadow" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="3" Opacity="0.5">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Paint Deep Shadow" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="4">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Accent Paint" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="5" Opacity="0.15">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Key Brush" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="ribbon\splitbutton2instatusbar[0].svg" />
+          </SvgImageNames>
+        </Image>
+        <Properties>
+          <AllowTouch Value="True" ValueType="System.Boolean" />
+          <DxSolidColor Value="0:W=0x0;1:W=0xFFBAE3F2;2:W=0x80B9E3F1;3:W=0x80B9E3F1;4:W=0xFFE04330;All" ValueType="System.String" />
+          <ForeColor Value="@Brush" ValueType="System.Drawing.Color" />
+          <ForeColorChecked Value="@Accent Brush" ValueType="System.Drawing.Color" />
+          <ForeColorDisabled Value="@Brush Light" ValueType="System.Drawing.Color" />
+          <ForeColorHot Value="@Brush" ValueType="System.Drawing.Color" />
+          <ForeColorHotChecked Value="@Accent Brush" ValueType="System.Drawing.Color" />
+          <ForeColorPressed Value="@Brush" ValueType="System.Drawing.Color" />
+        </Properties>
+        <SizeTouch AllowScale="False" ScaleFactor="1" MinSize="Width=20,Height=20" />
+        <SvgPalette>
+          <SvgPalette Name="Selected">
+            <SvgColor Name="White" Value="23,107,209" SkinColorId="Accent Paint" />
+            <SvgColor Name="Yellow" Value="255,255,255" SkinColorId="Accent Brush" />
+            <SvgColor Name="Red" Value="255,255,255" SkinColorId="Accent Brush" />
+            <SvgColor Name="Green" Value="255,255,255" SkinColorId="Accent Brush" />
+            <SvgColor Name="Blue" Value="255,255,255" SkinColorId="Accent Brush" />
+            <SvgColor Name="Black" Value="255,255,255" SkinColorId="Accent Brush" />
+          </SvgPalette>
+          <SvgPalette Name="Disabled">
+            <SvgColor Name="White" Value="71,71,71" SkinColorId="Key Paint" />
+            <SvgColor Name="Black" Value="150,150,150" SkinColorId="Key Brush Light" />
+            <SvgColor Name="Blue" Value="150,150,150" SkinColorId="Key Brush Light" />
+            <SvgColor Name="Green" Value="150,150,150" SkinColorId="Key Brush Light" />
+            <SvgColor Name="Red" Value="150,150,150" SkinColorId="Key Brush Light" />
+            <SvgColor Name="Yellow" Value="150,150,150" SkinColorId="Key Brush Light" />
+          </SvgPalette>
+          <SvgPalette Name="Normal">
+            <SvgColor Name="White" Value="71,71,71" SkinColorId="Key Paint" />
+            <SvgColor Name="Yellow" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Red" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Green" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Blue" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Black" Value="255,255,255" SkinColorId="Key Brush" />
+          </SvgPalette>
+        </SvgPalette>
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageSize="Width=64,Height=320" ImageCount="5" Layout="Vertical" Stretch="Stretch" SvgImageSize="Width=32,Height=32" ImageName="ribbon\200dpi_splitbutton2instatusbar.png" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </SplitButton2InStatusBar>
+      <SplitButtonInStatusBar>
+        <ContentMargins Bottom="5" Top="5" Left="7" Right="7" />
+        <ContentMarginsCompact Left="4" Right="4" Top="3" Bottom="3" />
+        <Image ImageSize="Width=32,Height=160" ImageCount="5" Layout="Vertical" Stretch="Stretch" SvgImageSize="Width=32,Height=32" ImageName="ribbon\splitbuttoninstatusbar.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0" Opacity="0">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Paint Deep Shadow" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="1">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Paint Deep Shadow" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="2" Opacity="0.5">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Paint Deep Shadow" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="3" Opacity="0.5">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Paint Deep Shadow" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="4">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Accent Paint" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="5" Opacity="0.15">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Key Brush" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="ribbon\splitbuttoninstatusbar[0].svg" />
+          </SvgImageNames>
+        </Image>
+        <Properties>
+          <AllowCompact Value="True" ValueType="System.Boolean" />
+          <AllowTouch Value="True" ValueType="System.Boolean" />
+          <DxSolidColor Value="0:W=0x0;1:W=0xFFBAE3F2;2:W=0x80B9E3F1;3:W=0x80B9E3F1;4:W=0xFFE04330;All" ValueType="System.String" />
+          <ForeColor Value="@Brush" ValueType="System.Drawing.Color" />
+          <ForeColorChecked Value="@Accent Brush" ValueType="System.Drawing.Color" />
+          <ForeColorDisabled Value="@Brush Light" ValueType="System.Drawing.Color" />
+          <ForeColorHot Value="@Brush" ValueType="System.Drawing.Color" />
+          <ForeColorHotChecked Value="@Accent Brush" ValueType="System.Drawing.Color" />
+          <ForeColorPressed Value="@Brush" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color ForeColor="@Key Brush" />
+        <SizeTouch AllowScale="False" ScaleFactor="1" MinSize="Width=20,Height=20" />
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageSize="Width=64,Height=320" ImageCount="5" Layout="Vertical" Stretch="Stretch" SvgImageSize="Width=32,Height=32" ImageName="ribbon\200dpi_splitbuttoninstatusbar.png" />
+            <Color ForeColor="@Key Brush" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </SplitButtonInStatusBar>
+      <StatusBarBackground>
+        <Image ImageCount="1" Layout="Vertical" Stretch="Tile" TileImageDrawMode="RightTop" SvgImageSize="Width=128,Height=48" ImageName="ribbon\statusbarbackground.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0">
+              <SvgColor Name="Element0" Value="Black" SkinColorId="Paint Shadow" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="ribbon\statusbarbackground[0].svg" />
+          </SvgImageNames>
+          <SizingMargins Top="2" />
+        </Image>
+        <Properties>
+          <AllowTouch Value="False" ValueType="System.Boolean" />
+          <ScaleImage Value="True" ValueType="System.Boolean" />
+        </Properties>
+        <Color BackColor="@Paint" ForeColor="@Brush" />
+        <SvgPalette>
+          <SvgPalette Name="Normal">
+            <SvgColor Name="Black" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Blue" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Green" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Red" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Yellow" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="White" Value="71,71,71" SkinColorId="Key Paint" />
+          </SvgPalette>
+        </SvgPalette>
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageCount="1" Layout="Vertical" Stretch="Tile" TileImageDrawMode="RightTop" SvgImageSize="Width=128,Height=48" ImageName="ribbon\200dpi_statusbarbackground.png">
+              <SizingMargins Top="4" />
+            </Image>
+            <Color BackColor="@Paint" ForeColor="@Brush" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </StatusBarBackground>
+      <StatusBarButton>
+        <ContentMargins Bottom="5" Top="5" Left="7" Right="7" />
+        <ContentMarginsCompact Left="4" Right="4" Top="3" Bottom="3" />
+        <Image ImageSize="Width=32,Height=192" ImageCount="6" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\statusbarbutton.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0" Opacity="0">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Paint Deep Shadow" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="1">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Paint Deep Shadow" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="2" Opacity="0.5">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Paint Deep Shadow" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="3">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Accent Paint" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="4">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Accent Paint" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="5">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Paint Deep Shadow" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="ribbon\statusbarbutton[0].svg" />
+          </SvgImageNames>
+        </Image>
+        <Properties>
+          <AllowCompact Value="True" ValueType="System.Boolean" />
+          <AllowTouch Value="True" ValueType="System.Boolean" />
+          <DxSolidColor Value="0:W=0x0;1:W=0xFFBAE3F2;2:W=0x80B9E3F1;3:W=0xFFE04330;4:W=0xFFE04330;5:W=0xFFBAE3F2;All" ValueType="System.String" />
+          <ForeColor Value="@Brush" ValueType="System.Drawing.Color" />
+          <ForeColorDisabled Value="@Brush Light" ValueType="System.Drawing.Color" />
+          <ForeColorHot Value="@Brush" ValueType="System.Drawing.Color" />
+          <ForeColorHot2 Value="@Brush" ValueType="System.Drawing.Color" />
+          <ForeColorSelected Value="@Accent Brush" ValueType="System.Drawing.Color" />
+        </Properties>
+        <SizeTouch AllowScale="False" ScaleFactor="1" MinSize="Width=15,Height=15" />
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageSize="Width=64,Height=384" ImageCount="6" Layout="Vertical" Stretch="Stretch" ImageName="ribbon\200dpi_statusbarbutton.png" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </StatusBarButton>
+      <StatusBarFormBackground>
+        <ContentMargins Bottom="2" Top="12" />
+        <Image ImageCount="4" Layout="Vertical" Stretch="Tile" TileImageDrawMode="RightTop" ImageName="ribbon\statusbarformbackground.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0">
+              <SvgColor Name="Element0" Value="Black" SkinColorId="Paint Shadow" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="1">
+              <SvgColor Name="Element0" Value="Black" SkinColorId="Paint Shadow" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="2">
+              <SvgColor Name="Element0" Value="Black" SkinColorId="Paint Shadow" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="3">
+              <SvgColor Name="Element0" Value="Black" SkinColorId="Paint Shadow" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="ribbon\statusbarformbackground[0].svg" />
+          </SvgImageNames>
+          <SizingMargins Top="2" />
+        </Image>
+        <Properties>
+          <AllowTouch Value="False" ValueType="System.Boolean" />
+          <ScaleImage Value="True" ValueType="System.Boolean" />
+        </Properties>
+        <Color BackColor="@Paint" ForeColor="@Brush" />
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageCount="4" Layout="Vertical" Stretch="Tile" TileImageDrawMode="RightTop" ImageName="ribbon\200dpi_statusbarformbackground.png">
+              <SizingMargins Top="4" />
+            </Image>
+            <Color BackColor="@Paint" ForeColor="@Brush" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </StatusBarFormBackground>
+      <TabHeaderBackground>
+        <Image ImageCount="3" Layout="Vertical" Stretch="Tile" TileImageDrawMode="RightTop" SvgImageSize="Width=768,Height=100" ImageName="ribbon\tabheaderbackground.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="1">
+              <SvgColor Name="st00" Value="128,180,193" SkinColorId="Key Paint" />
+              <SvgColor Name="st10" Value="109,51,8" SkinColorId="Brown" />
+              <SvgColor Name="st20" Value="77,142,110" SkinColorId="Green" />
+              <SvgColor Name="st30" Value="249,129,21" SkinColorId="Orange" />
+              <SvgColor Name="st40" Value="White" SkinColorId="Real White" />
+              <SvgColor Name="st50" Value="255,204,77" SkinColorId="Yellow" />
+              <SvgColor Name="st41" Value="White" SkinColorId="Key Brush" />
+              <SvgColor Name="st60" Value="164,215,224" SkinColorId="Key Brush Light" Opacity="0.5" />
+              <SvgColor Name="st42" Value="White" SkinColorId="Paint" />
+              <SvgColor Name="st51" Value="255,204,77" SkinColorId="Yellow" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="2">
+              <SvgColor Name="st00" Value="128,180,193" SkinColorId="Key Paint" />
+              <SvgColor Name="st10" Value="109,51,8" SkinColorId="Brown" />
+              <SvgColor Name="st20" Value="77,142,110" SkinColorId="Green" />
+              <SvgColor Name="st30" Value="249,129,21" SkinColorId="Orange" />
+              <SvgColor Name="st40" Value="White" SkinColorId="Real White" />
+              <SvgColor Name="st50" Value="255,204,77" SkinColorId="Yellow" />
+              <SvgColor Name="st41" Value="White" SkinColorId="Key Brush" />
+              <SvgColor Name="st60" Value="164,215,224" SkinColorId="Key Brush Light" Opacity="0.5" />
+              <SvgColor Name="st42" Value="White" SkinColorId="Paint" />
+              <SvgColor Name="st51" Value="255,204,77" SkinColorId="Yellow" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="0">
+              <SvgColor Name="st00" Value="128,180,193" SkinColorId="Key Paint" />
+              <SvgColor Name="st10" Value="109,51,8" SkinColorId="Brown" />
+              <SvgColor Name="st20" Value="77,142,110" SkinColorId="Green" />
+              <SvgColor Name="st30" Value="249,129,21" SkinColorId="Orange" />
+              <SvgColor Name="st40" Value="White" SkinColorId="Real White" />
+              <SvgColor Name="st50" Value="255,204,77" SkinColorId="Yellow" />
+              <SvgColor Name="st41" Value="White" SkinColorId="Key Brush" />
+              <SvgColor Name="st60" Value="164,215,224" SkinColorId="Key Brush Light" Opacity="0.5" />
+              <SvgColor Name="st42" Value="White" SkinColorId="Paint" />
+              <SvgColor Name="st51" Value="255,204,77" SkinColorId="Yellow" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="ribbon\tabheaderbackground[0].svg" />
+          </SvgImageNames>
+          <SizingMargins Right="640" />
+        </Image>
+        <Properties>
+          <AllowCompact Value="False" ValueType="System.Boolean" />
+          <AllowTouch Value="False" ValueType="System.Boolean" />
+          <ScaleImage Value="True" ValueType="System.Boolean" />
+        </Properties>
+        <Color ForeColor="@Key Brush" />
+        <SvgPalette>
+          <SvgPalette Name="Normal">
+            <SvgColor Name="Black" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Blue" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Green" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Yellow" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Red" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="White" Value="71,71,71" SkinColorId="Key Paint" />
+          </SvgPalette>
+        </SvgPalette>
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageCount="3" Layout="Vertical" Stretch="Tile" TileImageDrawMode="RightTop" SvgImageSize="Width=768,Height=100" ImageName="ribbon\200dpi_tabheaderbackground.png">
+              <SizingMargins Right="1280" />
+            </Image>
+            <Color ForeColor="@Key Brush" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </TabHeaderBackground>
+      <TabHeaderPage>
+        <ContentMargins Bottom="24" Top="32" Left="12" Right="12" />
+        <ContentMarginsTouch Bottom="3" Top="4" Left="6" Right="6" />
+        <Image ImageCount="5" Layout="Vertical" Stretch="Tile" SvgImageSize="Width=162,Height=102" ImageName="ribbon\tabheaderpage.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0" Opacity="0">
+              <SvgColor Name="st00" Value="30,16,4" SkinColorId="Key Brush" Opacity="0.5" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="1">
+              <SvgColor Name="st00" Value="30,16,4" SkinColorId="Key Brush" Opacity="0.5" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="2" Opacity="0">
+              <SvgColor Name="st00" Value="30,16,4" SkinColorId="Key Brush" Opacity="0.5" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="3">
+              <SvgColor Name="st00" Value="30,16,4" SkinColorId="Key Brush" Opacity="0.25" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="4">
+              <SvgColor Name="st00" Value="30,16,4" SkinColorId="Key Brush" Opacity="0.25" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="ribbon\tabheaderpage[0].svg" />
+          </SvgImageNames>
+          <SizingMargins Top="100" />
+        </Image>
+        <Properties>
+          <AllowCompact Value="True" ValueType="System.Boolean" />
+          <AllowTouch Value="True" ValueType="System.Boolean" />
+          <ForeColorSelected Value="@Key Brush" ValueType="System.Drawing.Color" />
+          <LeftXIndent Value="10" ValueType="System.Int32" />
+          <RightXIndent Value="10" ValueType="System.Int32" />
+          <ScaleImage Value="True" ValueType="System.Boolean" />
+        </Properties>
+        <Color FontBold="True" ForeColor="@Key Brush" />
+        <SizeTouch AllowScale="False" ScaleFactor="1" MinSize="Width=15,Height=15" />
+        <SvgPalette>
+          <SvgPalette Name="Normal">
+            <SvgColor Name="Black" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Blue" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Green" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Yellow" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Red" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="White" Value="71,71,71" SkinColorId="Key Paint" />
+          </SvgPalette>
+        </SvgPalette>
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageCount="5" Layout="Vertical" Stretch="Tile" SvgImageSize="Width=162,Height=102" ImageName="ribbon\200dpi_tabheaderpage.png">
+              <SizingMargins Top="200" />
+            </Image>
+            <Properties>
+              <LeftXIndent Value="20" ValueType="System.Int32" />
+              <RightXIndent Value="20" ValueType="System.Int32" />
+            </Properties>
+            <Color FontBold="True" ForeColor="@Key Brush" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </TabHeaderPage>
+      <TabPanel>
+        <ContentMargins Bottom="1" />
+        <Image ImageSize="Width=32,Height=32" ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="ribbon\tabpanel.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0">
+              <SvgColor Name="Brush" Value="90,90,90" SkinColorId="Brush Major" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="ribbon\tabpanel[0].svg" />
+          </SvgImageNames>
+          <SizingMargins Bottom="1" />
+        </Image>
+        <Properties>
+          <AllowCompact Value="False" ValueType="System.Boolean" />
+          <AllowTouch Value="False" ValueType="System.Boolean" />
+          <DxSolidColor Value="0:4=0xFFEDF8FC;0:7=0xFFBFD0D6;All" ValueType="System.String" />
+          <TabPanelBottomIndent Value="0" ValueType="System.Int32" />
+          <TabPanelRegionRadius Value="0" ValueType="System.Int32" />
+        </Properties>
+        <Color BackColor="@Paint Shadow" />
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageSize="Width=64,Height=64" ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="ribbon\200dpi_tabpanel.png">
+              <SizingMargins Bottom="2" />
+            </Image>
+            <Properties>
+              <TabPanelBottomIndent Value="0" ValueType="System.Int32" />
+              <TabPanelRegionRadius Value="0" ValueType="System.Int32" />
+            </Properties>
+            <Color BackColor="@Paint Shadow" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </TabPanel>
+    </Elements>
+  </Skin14>
+  <Skin15 SkinProduct="Printing" BasedOn="The Bezier" SkinName="Winter Joy">
+    <Elements>
+      <PageBorder>
+        <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="printing\pageborder.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0">
+              <SvgColor Name="st1" Value="112,112,112" SkinColorId="Accent Paint" />
+              <SvgColor Name="st11" Value="255,174,174" SkinColorId="Accent Paint" />
+              <SvgColor Name="st12" Value="255,174,174" SkinColorId="Accent Paint" />
+              <SvgColor Name="st2" Value="255,255,255" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="1">
+              <SvgColor Name="st1" Value="112,112,112" SkinColorId="Accent Paint" Opacity="0" />
+              <SvgColor Name="st11" Value="255,174,174" SkinColorId="Accent Paint" Opacity="0" />
+              <SvgColor Name="st12" Value="255,174,174" SkinColorId="Brush Major" />
+              <SvgColor Name="st2" Value="255,255,255" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="printing\pageborder[0].svg" />
+          </SvgImageNames>
+          <SizingMargins Bottom="3" Top="3" Left="3" Right="3" />
+        </Image>
+        <Properties>
+          <AllowTouch Value="False" ValueType="System.Boolean" />
+          <DxSolidColor Value="0:4=0xFFFFFFFF;1:4=0xFFFFFFFF;" ValueType="System.String" />
+        </Properties>
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageCount="2" Layout="Vertical" Stretch="Stretch" ImageName="printing\200dpi_pageborder.png">
+              <SizingMargins Bottom="6" Top="6" Left="6" Right="6" />
+            </Image>
+          </ScaleInfo>
+        </ScaleInfo>
+      </PageBorder>
+      <PreviewBackground>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" SvgImageSize="Width=950,Height=500" ImageName="printing\previewbackground.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0">
+              <SvgColor Name="st00" Value="164,215,224" SkinColorId="Paint" Opacity="0" />
+              <SvgColor Name="Element2" Value="Black" SkinColorId="Black" Opacity="0.5" />
+              <SvgColor Name="st10" Value="White" SkinColorId="Paint Deep Shadow" />
+              <SvgColor Name="st20" Value="128,180,193" SkinColorId="Blue" />
+              <SvgColor Name="st11" Value="White" SkinColorId="Real White" />
+              <SvgColor Name="st30" Value="109,51,8" SkinColorId="Real Black" Opacity="0.25" />
+              <SvgColor Name="st40" Value="255,204,77" SkinColorId="Yellow" />
+              <SvgColor Name="st50" Value="224,67,48" SkinColorId="Red" />
+              <SvgColor Name="st31" Value="109,51,8" SkinColorId="Real Black" Opacity="0.25" />
+              <SvgColor Name="st41" Value="255,204,77" SkinColorId="Yellow" />
+              <SvgColor Name="st12" Value="White" SkinColorId="Real White" />
+              <SvgColor Name="st42" Value="255,204,77" SkinColorId="Yellow" />
+              <SvgColor Name="st51" Value="224,67,48" SkinColorId="Red" />
+              <SvgColor Name="st32" Value="109,51,8" SkinColorId="Real Black" Opacity="0.25" />
+              <SvgColor Name="st43" Value="255,204,77" SkinColorId="Yellow" />
+              <SvgColor Name="st52" Value="224,67,48" SkinColorId="Red" />
+              <SvgColor Name="st44" Value="255,204,77" SkinColorId="Yellow" />
+              <SvgColor Name="st33" Value="109,51,8" SkinColorId="Real Black" Opacity="0.25" />
+              <SvgColor Name="st45" Value="255,204,77" SkinColorId="Yellow" />
+              <SvgColor Name="st60" Value="77,142,110" SkinColorId="Green" />
+              <SvgColor Name="st53" Value="224,67,48" SkinColorId="Red" />
+              <SvgColor Name="st61" Value="77,142,110" SkinColorId="Green" />
+              <SvgColor Name="st54" Value="224,67,48" SkinColorId="Red" />
+              <SvgColor Name="st62" Value="77,142,110" SkinColorId="Green" />
+              <SvgColor Name="st34" Value="109,51,8" SkinColorId="Real Black" Opacity="0.25" />
+              <SvgColor Name="st46" Value="255,204,77" SkinColorId="Yellow" />
+              <SvgColor Name="st47" Value="255,204,77" SkinColorId="Yellow" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="printing\previewbackground[0].svg" />
+          </SvgImageNames>
+          <SizingMargins Top="490" Left="450" Right="450" />
+        </Image>
+        <Properties>
+          <AllowTouch Value="False" ValueType="System.Boolean" />
+          <DxSolidColor Value="0:1=0x0;0:3=0x0;0:4=0x0;0:5=0x0;" ValueType="System.String" />
+          <ScaleImage Value="True" ValueType="System.Boolean" />
+        </Properties>
+        <Color BackColor="@Paint" ForeColor="@Key Brush Light" />
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" SvgImageSize="Width=950,Height=500" ImageName="printing\200dpi_previewbackground.png">
+              <SizingMargins Top="980" Left="900" Right="900" />
+            </Image>
+            <Color BackColor="@Paint" ForeColor="@Key Brush Light" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </PreviewBackground>
+    </Elements>
+  </Skin15>
+  <Skin16 SkinProduct="RichEdit" BasedOn="The Bezier" SkinName="Winter Joy">
+    <Colors>
+      <RulerDefaultTabColor Value="@Brush Light" />
+    </Colors>
+    <Elements>
+      <CornerPanel>
+        <Color BackColor="@Paint" />
+      </CornerPanel>
+      <HorizontalRulerBackground>
+        <ContentMargins Bottom="10" Top="14" />
+        <Color BackColor="@Paint" />
+        <SizeTouch AllowScale="False" ScaleFactor="1" MinSize="Width=24,Height=24" />
+      </HorizontalRulerBackground>
+      <RulerColumnResizer>
+        <Image ImageCount="2" Layout="Vertical" Stretch="NoResize" ImageName="richedit\rulercolumnresizer.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0">
+              <SvgColor Name="st0" Value="112,112,112" SkinColorId="Brush Light" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="1">
+              <SvgColor Name="st0" Value="112,112,112" SkinColorId="Brush Light" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="richedit\rulercolumnresizer[0].svg" />
+          </SvgImageNames>
+        </Image>
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageCount="2" Layout="Vertical" Stretch="NoResize" ImageName="richedit\200dpi_rulercolumnresizer.png" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </RulerColumnResizer>
+      <RulerRightMargin>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Tile" SvgImageSize="Width=12,Height=12" ImageName="richedit\rulerrightmargin.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0">
+              <SvgColor Name="st0" Value="112,112,112" SkinColorId="Paint" />
+              <SvgColor Name="st01" Value="112,112,112" SkinColorId="Paint" />
+              <SvgColor Name="st02" Value="112,112,112" SkinColorId="Paint" />
+              <SvgColor Name="st03" Value="112,112,112" SkinColorId="Paint" />
+              <SvgColor Name="st04" Value="112,112,112" SkinColorId="Paint" />
+              <SvgColor Name="st05" Value="112,112,112" SkinColorId="Paint" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="richedit\rulerrightmargin[0].svg" />
+          </SvgImageNames>
+        </Image>
+        <Color BackColor="@Paint Deep Shadow" />
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageCount="1" Layout="Horizontal" Stretch="Tile" SvgImageSize="Width=12,Height=12" ImageName="richedit\200dpi_rulerrightmargin.png" />
+            <Color BackColor="@Paint Deep Shadow" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </RulerRightMargin>
+      <RulerSection>
+        <Properties>
+          <DxSolidColor Value="0:W=0xFF363636;" ValueType="System.String" />
+        </Properties>
+        <Color BackColor="@Paint Deep Shadow" ForeColor="@Brush Light" />
+      </RulerSection>
+      <RulerTab>
+        <Image ImageCount="10" Layout="Vertical" Stretch="NoResize" ImageName="richedit\rulertab.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0">
+              <SvgColor Name="st0" Value="112,112,112" SkinColorId="Brush Light" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="1">
+              <SvgColor Name="st0" Value="112,112,112" SkinColorId="Brush Light" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="2">
+              <SvgColor Name="st0" Value="112,112,112" SkinColorId="Brush Light" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="3">
+              <SvgColor Name="st0" Value="112,112,112" SkinColorId="Brush Light" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="4">
+              <SvgColor Name="st0" Value="112,112,112" SkinColorId="Brush Light" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="5" Opacity="0.25">
+              <SvgColor Name="st0" Value="112,112,112" SkinColorId="Brush Light" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="6" Opacity="0.25">
+              <SvgColor Name="st0" Value="112,112,112" SkinColorId="Brush Light" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="7" Opacity="0.25">
+              <SvgColor Name="st0" Value="112,112,112" SkinColorId="Brush Light" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="8" Opacity="0.25">
+              <SvgColor Name="st0" Value="112,112,112" SkinColorId="Brush Light" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="9" Opacity="0.25">
+              <SvgColor Name="st0" Value="112,112,112" SkinColorId="Brush Light" />
+              <SvgColor Name="st01" Value="112,112,112" SkinColorId="Brush Light" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="richedit\rulertab[0].svg" />
+            <SvgImage Index="1" Name="richedit\rulertab[1].svg" />
+            <SvgImage Index="2" Name="richedit\rulertab[2].svg" />
+            <SvgImage Index="3" Name="richedit\rulertab[3].svg" />
+            <SvgImage Index="4" Name="richedit\rulertab[4].svg" />
+            <SvgImage Index="6" Name="richedit\rulertab[6].svg" />
+            <SvgImage Index="7" Name="richedit\rulertab[7].svg" />
+            <SvgImage Index="8" Name="richedit\rulertab[8].svg" />
+            <SvgImage Index="9" Name="richedit\rulertab[9].svg" />
+          </SvgImageNames>
+        </Image>
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageCount="10" Layout="Vertical" Stretch="NoResize" ImageName="richedit\200dpi_rulertab.png" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </RulerTab>
+      <RulerTabTypeBackground>
+        <Color BackColor="@Paint Deep Shadow" />
+      </RulerTabTypeBackground>
+      <VerticalRulerBackground>
+        <ContentMargins Bottom="10" Top="15" />
+        <Color BackColor="@Paint" />
+      </VerticalRulerBackground>
+    </Elements>
+  </Skin16>
+  <Skin17 SkinProduct="Chart" BasedOn="The Bezier" SkinName="Winter Joy">
+    <Elements />
+  </Skin17>
+  <Skin18 SkinProduct="Gauges" BasedOn="The Bezier" SkinName="Winter Joy">
+    <Elements />
+  </Skin18>
+  <Skin19 SkinProduct="Dashboard" BasedOn="The Bezier" SkinName="Winter Joy">
+    <Elements />
+  </Skin19>
+  <Skin20 SkinProduct="Sparkline" BasedOn="The Bezier" SkinName="Winter Joy">
+    <Elements />
+  </Skin20>
+  <Skin21 SkinProduct="Spreadsheet" BasedOn="The Bezier" SkinName="Winter Joy">
+    <Elements />
+  </Skin21>
+  <Skin22 SkinProduct="PdfViewer" BasedOn="The Bezier" SkinName="Winter Joy">
+    <Elements />
+  </Skin22>
+  <Skin23 SkinProduct="Map" BasedOn="The Bezier" SkinName="Winter Joy">
+    <Elements />
+  </Skin23>
+  <Skin24 SkinProduct="NavigationPane" BasedOn="The Bezier" SkinName="Winter Joy">
+    <Elements />
+  </Skin24>
+  <Skin25 SkinProduct="AccordionControl" BasedOn="The Bezier" SkinName="Winter Joy">
+    <Properties>
+      <DistanceBetweenRootGroups Value="0" ValueType="System.Int32" />
+    </Properties>
+    <Elements>
+      <Background>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" SvgImageSize="Width=300,Height=400" ImageName="accordioncontrol\background.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0">
+              <SvgColor Name="st00" Value="178,226,234" SkinColorId="Paint Shadow" />
+              <SvgColor Name="st10" Value="128,180,193" SkinColorId="Paint Deep Shadow" />
+              <SvgColor Name="st20" Value="109,51,8" SkinColorId="Brown" />
+              <SvgColor Name="st30" Value="White" SkinColorId="Real White" />
+              <SvgColor Name="st01" Value="178,226,234" SkinColorId="Blue" Opacity="0.35" />
+              <SvgColor Name="st21" Value="109,51,8" SkinColorId="Brown" />
+              <SvgColor Name="st40" Value="30,16,4" SkinColorId="Real Black" />
+              <SvgColor Name="st50" Value="224,67,48" SkinColorId="Red" />
+              <SvgColor Name="st41" Value="30,16,4" SkinColorId="Real Black" Opacity="0.35" />
+              <SvgColor Name="st51" Value="224,67,48" SkinColorId="Red" />
+              <SvgColor Name="st42" Value="30,16,4" SkinColorId="Real Black" Opacity="0.35" />
+              <SvgColor Name="st31" Value="White" SkinColorId="Real White" />
+              <SvgColor Name="st02" Value="178,226,234" SkinColorId="Blue" Opacity="0.35" />
+              <SvgColor Name="st60" Value="249,129,21" SkinColorId="Orange" />
+              <SvgColor Name="st43" Value="30,16,4" SkinColorId="Real Black" />
+              <SvgColor Name="st70" Value="255,204,77" SkinColorId="Yellow" />
+              <SvgColor Name="st44" Value="30,16,4" SkinColorId="Real Black" Opacity="0.35" />
+              <SvgColor Name="st32" Value="White" SkinColorId="Real White" />
+              <SvgColor Name="st45" Value="30,16,4" SkinColorId="Real Black" Opacity="0.35" />
+              <SvgColor Name="st22" Value="109,51,8" SkinColorId="Brown" />
+              <SvgColor Name="st80" Value="77,142,110" SkinColorId="Green" />
+              <SvgColor Name="st61" Value="249,129,21" SkinColorId="Orange" />
+              <SvgColor Name="st72" Value="255,204,77" SkinColorId="Yellow" />
+              <SvgColor Name="st11" Value="128,180,193" SkinColorId="Blue" />
+              <SvgColor Name="st73" Value="255,204,77" SkinColorId="Yellow" />
+              <SvgColor Name="st12" Value="128,180,193" SkinColorId="Paint Deep Shadow" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="accordioncontrol\background[0].svg" />
+          </SvgImageNames>
+          <SizingMargins Bottom="398" Left="290" />
+        </Image>
+        <Properties>
+          <AllowTouch Value="False" ValueType="System.Boolean" />
+          <DxSolidColor Value="0:3=0x0;0:4=0x0;0:7=0x0;" ValueType="System.String" />
+          <ScaleImage Value="True" ValueType="System.Boolean" />
+        </Properties>
+        <Color BackColor="@Paint" />
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" SvgImageSize="Width=300,Height=400" ImageName="accordioncontrol\200dpi_background.png">
+              <SizingMargins Bottom="796" Left="580" />
+            </Image>
+            <Color BackColor="@Paint" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </Background>
+      <Group>
+        <ContentMargins Bottom="6" Top="6" Left="20" Right="20" />
+        <ContentMarginsTouch Bottom="6" Top="6" Left="6" Right="6" />
+        <Image ImageSize="Width=32,Height=96" ImageCount="3" Layout="Vertical" Stretch="Stretch" ImageName="accordioncontrol\group.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0" Opacity="0.75" />
+            <SvgPalette Name="" Index="1">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Accent Paint Light" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="2">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Paint Shadow" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="accordioncontrol\group[0].svg" />
+          </SvgImageNames>
+        </Image>
+        <Properties>
+          <AllowCompact Value="True" ValueType="System.Boolean" />
+          <AllowTouch Value="True" ValueType="System.Boolean" />
+          <DxSolidColor Value="0:W=0xBFEDF8FC;1:W=0xFFD2EDF7;2:W=0xFFDCF1FA;All" ValueType="System.String" />
+          <ForeColorHot Value="@Brush (addl)" ValueType="System.Drawing.Color" />
+          <ForeColorPressed Value="@Brush" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color ForeColor="@Brush" />
+        <Size MinSize="Width=10,Height=30" />
+        <SizeTouch AllowScale="False" ScaleFactor="1" MinSize="Width=15,Height=15" />
+        <SvgPalette>
+          <SvgPalette Name="Selected">
+            <SvgColor Name="Yellow" Value="255,255,255" SkinColorId="Accent Brush" />
+            <SvgColor Name="White" Value="23,107,209" SkinColorId="Accent Paint" />
+            <SvgColor Name="Red" Value="255,255,255" SkinColorId="Accent Brush" />
+            <SvgColor Name="Green" Value="255,255,255" SkinColorId="Accent Brush" />
+            <SvgColor Name="Blue" Value="255,255,255" SkinColorId="Accent Brush" />
+            <SvgColor Name="Black" Value="255,255,255" SkinColorId="Accent Brush" />
+          </SvgPalette>
+        </SvgPalette>
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageSize="Width=64,Height=192" ImageCount="3" Layout="Vertical" Stretch="Stretch" ImageName="accordioncontrol\200dpi_group.png" />
+            <Color ForeColor="@Brush" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </Group>
+      <Item>
+        <ContentMargins Bottom="6" Top="6" Left="20" Right="20" />
+        <ContentMarginsTouch Bottom="6" Top="6" Left="6" Right="6" />
+        <Image ImageSize="Width=32,Height=96" ImageCount="3" Layout="Vertical" Stretch="Stretch" ImageName="accordioncontrol\item.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0" Opacity="0.75" />
+            <SvgPalette Name="" Index="1">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Accent Paint Light" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="2">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Accent Paint" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="accordioncontrol\item[0].svg" />
+          </SvgImageNames>
+        </Image>
+        <Properties>
+          <AllowCompact Value="True" ValueType="System.Boolean" />
+          <AllowTouch Value="True" ValueType="System.Boolean" />
+          <DxSolidColor Value="0:W=0xBFEDF8FC;1:W=0xFFD2EDF7;2:W=0xFFE04330;All" ValueType="System.String" />
+          <ForeColorHot Value="@Brush (addl)" ValueType="System.Drawing.Color" />
+          <ForeColorPressed Value="@Accent Brush" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color ForeColor="@Brush" />
+        <Size MinSize="Width=10,Height=30" />
+        <SizeTouch AllowScale="False" ScaleFactor="1" MinSize="Width=15,Height=15" />
+        <SvgPalette>
+          <SvgPalette Name="Selected">
+            <SvgColor Name="Yellow" Value="255,255,255" SkinColorId="Accent Brush" />
+            <SvgColor Name="White" Value="23,107,209" SkinColorId="Accent Paint" />
+            <SvgColor Name="Red" Value="255,255,255" SkinColorId="Accent Brush" />
+            <SvgColor Name="Green" Value="255,255,255" SkinColorId="Accent Brush" />
+            <SvgColor Name="Blue" Value="255,255,255" SkinColorId="Accent Brush" />
+            <SvgColor Name="Black" Value="255,255,255" SkinColorId="Accent Brush" />
+          </SvgPalette>
+          <SvgPalette Name="Pressed">
+            <SvgColor Name="Black" Value="255,255,255" SkinColorId="Accent Brush" />
+            <SvgColor Name="Blue" Value="255,255,255" SkinColorId="Accent Brush" />
+            <SvgColor Name="Green" Value="255,255,255" SkinColorId="Accent Brush" />
+            <SvgColor Name="Red" Value="255,255,255" SkinColorId="Accent Brush" />
+            <SvgColor Name="Yellow" Value="255,255,255" SkinColorId="Accent Brush" />
+            <SvgColor Name="White" Value="23,107,209" SkinColorId="Accent Paint" />
+          </SvgPalette>
+        </SvgPalette>
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageSize="Width=64,Height=192" ImageCount="3" Layout="Vertical" Stretch="Stretch" ImageName="accordioncontrol\200dpi_item.png" />
+            <Color ForeColor="@Brush" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </Item>
+      <RootGroup>
+        <ContentMargins Left="20" />
+        <ContentMarginsCompact Bottom="1" />
+        <Image ImageSize="Width=32,Height=32" ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="accordioncontrol\rootgroup.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0">
+              <SvgColor Name="Paint" Value="175,175,175" SkinColorId="Paint" Opacity="0.75" />
+              <SvgColor Name="Brush" Value="90,90,90" SkinColorId="Brush Major" Opacity="0.5" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="accordioncontrol\rootgroup[0].svg" />
+          </SvgImageNames>
+          <SizingMargins Bottom="1" />
+        </Image>
+        <Border Left="185,185,185" Right="185,185,185" Top="185,185,185" Bottom="185,185,185" />
+        <Properties>
+          <AllowCompact Value="True" ValueType="System.Boolean" />
+          <AllowTouch Value="False" ValueType="System.Boolean" />
+          <AlphaBorderColor Value="64" ValueType="System.Int32" />
+          <DxSolidColor Value="0:4=0xBEEDF8FC;0:7=0xDED4E2E4;All" ValueType="System.String" />
+          <FontDelta Value="0" ValueType="System.Int32" />
+          <HeaderAlphaTextColor Value="180" ValueType="System.Int32" />
+          <HeaderPadding Value="(All=4)" ValueType="DevExpress.Skins.SkinPaddingEdges" />
+        </Properties>
+        <Color FontBold="True" ForeColor="@Brush Light" />
+        <Size MinSize="Width=10,Height=27" />
+        <SizeTouch AllowScale="False" ScaleFactor="1" MinSize="Width=10,Height=30" />
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageSize="Width=64,Height=64" ImageCount="1" Layout="Horizontal" Stretch="Stretch" ImageName="accordioncontrol\200dpi_rootgroup.png">
+              <SizingMargins Bottom="2" />
+            </Image>
+            <Properties>
+              <HeaderPadding Value="(All=8)" ValueType="DevExpress.Skins.SkinPaddingEdges" />
+            </Properties>
+            <Color FontBold="True" ForeColor="@Brush Light" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </RootGroup>
+    </Elements>
+  </Skin25>
+  <Skin26 SkinProduct="TreeMap" BasedOn="The Bezier" SkinName="Winter Joy">
+    <Elements />
+  </Skin26>
+  <Skin27 SkinProduct="HamburgerMenu" BasedOn="The Bezier" SkinName="Winter Joy">
+    <SvgPalette>
+      <SvgPalette Name="Normal">
+        <SvgColor Name="Yellow" Value="255,255,255" SkinColorId="Key Brush" />
+        <SvgColor Name="White" Value="71,71,71" SkinColorId="Key Paint" />
+        <SvgColor Name="Red" Value="255,255,255" SkinColorId="Key Brush" />
+        <SvgColor Name="Green" Value="255,255,255" SkinColorId="Key Brush" />
+        <SvgColor Name="Blue" Value="255,255,255" SkinColorId="Key Brush" />
+        <SvgColor Name="Black" Value="255,255,255" SkinColorId="Key Brush" />
+      </SvgPalette>
+    </SvgPalette>
+    <Elements>
+      <Background>
+        <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" SvgImageSize="Width=300,Height=400" ImageName="hamburgermenu\background.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0">
+              <SvgColor Name="st00" Value="178,226,234" SkinColorId="Key Brush" Opacity="0.25" />
+              <SvgColor Name="st10" Value="128,180,193" SkinColorId="Key Brush" Opacity="0.5" />
+              <SvgColor Name="st20" Value="109,51,8" SkinColorId="Brown" />
+              <SvgColor Name="st30" Value="White" SkinColorId="Real White" />
+              <SvgColor Name="st01" Value="178,226,234" SkinColorId="Blue" Opacity="0.35" />
+              <SvgColor Name="st21" Value="109,51,8" SkinColorId="Brown" />
+              <SvgColor Name="st40" Value="30,16,4" SkinColorId="Real Black" />
+              <SvgColor Name="st50" Value="224,67,48" SkinColorId="Red" />
+              <SvgColor Name="st41" Value="30,16,4" SkinColorId="Real Black" Opacity="0.35" />
+              <SvgColor Name="st51" Value="224,67,48" SkinColorId="Red" />
+              <SvgColor Name="st42" Value="30,16,4" SkinColorId="Real Black" Opacity="0.35" />
+              <SvgColor Name="st31" Value="White" SkinColorId="Real White" />
+              <SvgColor Name="st02" Value="178,226,234" SkinColorId="Blue" Opacity="0.35" />
+              <SvgColor Name="st60" Value="249,129,21" SkinColorId="Orange" />
+              <SvgColor Name="st43" Value="30,16,4" SkinColorId="Real Black" />
+              <SvgColor Name="st70" Value="255,204,77" SkinColorId="Yellow" />
+              <SvgColor Name="st44" Value="30,16,4" SkinColorId="Real Black" Opacity="0.35" />
+              <SvgColor Name="st32" Value="White" SkinColorId="Real White" />
+              <SvgColor Name="st45" Value="30,16,4" SkinColorId="Real Black" Opacity="0.35" />
+              <SvgColor Name="st22" Value="109,51,8" SkinColorId="Brown" />
+              <SvgColor Name="st80" Value="77,142,110" SkinColorId="Green" />
+              <SvgColor Name="st61" Value="249,129,21" SkinColorId="Orange" />
+              <SvgColor Name="st72" Value="255,204,77" SkinColorId="Yellow" />
+              <SvgColor Name="st11" Value="128,180,193" SkinColorId="Key Brush" />
+              <SvgColor Name="st73" Value="255,204,77" SkinColorId="Yellow" />
+              <SvgColor Name="st12" Value="128,180,193" SkinColorId="Key Brush" Opacity="0.25" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="hamburgermenu\background[0].svg" />
+          </SvgImageNames>
+          <SizingMargins Bottom="398" Left="290" />
+        </Image>
+        <Properties>
+          <AllowCompact Value="False" ValueType="System.Boolean" />
+          <AllowTouch Value="False" ValueType="System.Boolean" />
+          <DxSolidColor Value="0:3=0x0;0:4=0x0;0:7=0x0;" ValueType="System.String" />
+          <ScaleImage Value="True" ValueType="System.Boolean" />
+        </Properties>
+        <Color BackColor="@Key Paint" />
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageCount="1" Layout="Horizontal" Stretch="Stretch" SvgImageSize="Width=300,Height=400" ImageName="hamburgermenu\200dpi_background.png">
+              <SizingMargins Bottom="796" Left="580" />
+            </Image>
+            <Color BackColor="@Key Paint" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </Background>
+      <Group>
+        <ContentMargins Bottom="8" Top="8" Left="10" Right="10" />
+        <Image ImageSize="Width=96,Height=32" ImageCount="3" Layout="Horizontal" Stretch="Stretch" ImageName="hamburgermenu\group.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0" Opacity="0.75">
+              <SvgColor Name="Paint0" Value="175,175,175" SkinColorId="Key Paint" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="1" Opacity="0.15">
+              <SvgColor Name="Paint0" Value="175,175,175" SkinColorId="Key Brush" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="2" Opacity="0.1">
+              <SvgColor Name="Paint0" Value="175,175,175" SkinColorId="Key Brush" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="hamburgermenu\group[0].svg" />
+          </SvgImageNames>
+        </Image>
+        <Properties>
+          <AllowCompact Value="True" ValueType="System.Boolean" />
+          <AllowTouch Value="True" ValueType="System.Boolean" />
+          <DxSolidColor Value="0:W=0xBF71B5CD;1:W=0x26FEFEFE;2:W=0x1AFEFEFE;All" ValueType="System.String" />
+          <ForeColorPressed Value="@Key Brush Light" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color FontBold="True" ForeColor="@Key Brush Light" />
+        <Size MinSize="Width=10,Height=30" />
+        <SizeTouch AllowScale="False" ScaleFactor="1" MinSize="Width=10,Height=30" />
+        <SvgPalette>
+          <SvgPalette Name="Normal">
+            <SvgColor Name="Black" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Blue" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Green" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Red" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Yellow" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="White" Value="71,71,71" SkinColorId="Key Paint" />
+          </SvgPalette>
+          <SvgPalette Name="Disabled">
+            <SvgColor Name="Black" Value="150,150,150" SkinColorId="Key Brush Light" />
+            <SvgColor Name="Blue" Value="150,150,150" SkinColorId="Key Brush Light" />
+            <SvgColor Name="Green" Value="150,150,150" SkinColorId="Key Brush Light" />
+            <SvgColor Name="Red" Value="150,150,150" SkinColorId="Key Brush Light" />
+            <SvgColor Name="Yellow" Value="150,150,150" SkinColorId="Key Brush Light" />
+            <SvgColor Name="White" Value="71,71,71" SkinColorId="Key Paint" />
+          </SvgPalette>
+        </SvgPalette>
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageSize="Width=192,Height=64" ImageCount="3" Layout="Horizontal" Stretch="Stretch" ImageName="hamburgermenu\200dpi_group.png" />
+            <Color FontBold="True" ForeColor="@Key Brush Light" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </Group>
+      <Item>
+        <ContentMargins Bottom="8" Top="8" Left="10" Right="10" />
+        <Image ImageSize="Width=32,Height=96" ImageCount="3" Layout="Vertical" Stretch="Stretch" ImageName="hamburgermenu\item.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0" Opacity="0.75">
+              <SvgColor Name="Paint" Value="175,175,175" SkinColorId="Key Paint" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="1">
+              <SvgColor Name="st00" Value="175,175,175" SkinColorId="Key Paint" Opacity="0.75" />
+              <SvgColor Name="st01" Value="175,175,175" SkinColorId="Accent Brush" Opacity="0.15" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="2">
+              <SvgColor Name="Paint" Value="242,242,242" SkinColorId="Accent Paint" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="hamburgermenu\item[0].svg" />
+            <SvgImage Index="1" Name="hamburgermenu\item[1].svg" />
+          </SvgImageNames>
+        </Image>
+        <Properties>
+          <AllowCompact Value="True" ValueType="System.Boolean" />
+          <AllowTouch Value="True" ValueType="System.Boolean" />
+          <DxSolidColor Value="0:W=0xBF71B5CD;1:W=0xC798C6D7;2:W=0xFFE04330;All" ValueType="System.String" />
+          <ForeColorHot Value="@Key Brush" ValueType="System.Drawing.Color" />
+          <ForeColorPressed Value="@Accent Brush" ValueType="System.Drawing.Color" />
+        </Properties>
+        <Color ForeColor="@Key Brush" />
+        <Size MinSize="Width=10,Height=30" />
+        <SizeTouch AllowScale="False" ScaleFactor="1" MinSize="Width=10,Height=30" />
+        <SvgPalette>
+          <SvgPalette Name="Normal">
+            <SvgColor Name="Black" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Blue" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Green" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Red" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Yellow" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="White" Value="71,71,71" SkinColorId="Key Paint" />
+          </SvgPalette>
+          <SvgPalette Name="Pressed">
+            <SvgColor Name="White" Value="23,107,209" SkinColorId="Accent Paint" />
+            <SvgColor Name="Black" Value="255,255,255" SkinColorId="Accent Brush" />
+            <SvgColor Name="Blue" Value="255,255,255" SkinColorId="Accent Brush" />
+            <SvgColor Name="Green" Value="255,255,255" SkinColorId="Accent Brush" />
+            <SvgColor Name="Red" Value="255,255,255" SkinColorId="Accent Brush" />
+            <SvgColor Name="Yellow" Value="255,255,255" SkinColorId="Accent Brush" />
+          </SvgPalette>
+          <SvgPalette Name="Selected">
+            <SvgColor Name="White" Value="23,107,209" SkinColorId="Accent Paint" />
+            <SvgColor Name="Yellow" Value="255,255,255" SkinColorId="Accent Brush" />
+            <SvgColor Name="Red" Value="255,255,255" SkinColorId="Accent Brush" />
+            <SvgColor Name="Green" Value="255,255,255" SkinColorId="Accent Brush" />
+            <SvgColor Name="Blue" Value="255,255,255" SkinColorId="Accent Brush" />
+            <SvgColor Name="Black" Value="255,255,255" SkinColorId="Accent Brush" />
+          </SvgPalette>
+          <SvgPalette Name="Disabled">
+            <SvgColor Name="Black" Value="150,150,150" SkinColorId="Key Brush Light" />
+            <SvgColor Name="Blue" Value="150,150,150" SkinColorId="Key Brush Light" />
+            <SvgColor Name="Green" Value="150,150,150" SkinColorId="Key Brush Light" />
+            <SvgColor Name="Red" Value="150,150,150" SkinColorId="Key Brush Light" />
+            <SvgColor Name="Yellow" Value="150,150,150" SkinColorId="Key Brush Light" />
+            <SvgColor Name="White" Value="71,71,71" SkinColorId="Key Paint" />
+          </SvgPalette>
+        </SvgPalette>
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageSize="Width=64,Height=192" ImageCount="3" Layout="Vertical" Stretch="Stretch" ImageName="hamburgermenu\200dpi_item.png" />
+            <Color ForeColor="@Key Brush" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </Item>
+      <RootGroup>
+        <ContentMargins Left="10" />
+        <Image ImageSize="Width=96,Height=32" ImageCount="3" Layout="Horizontal" Stretch="Stretch" ImageName="hamburgermenu\rootgroup.png">
+          <SvgPalette>
+            <SvgPalette Name="" Index="0">
+              <SvgColor Name="Paint0" Value="175,175,175" SkinColorId="Key Paint" Opacity="0.75" />
+              <SvgColor Name="Brush0" Value="112,112,112" SkinColorId="Key Brush" Opacity="0.15" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="1">
+              <SvgColor Name="Paint0" Value="175,175,175" SkinColorId="Key Paint" Opacity="0.75" />
+              <SvgColor Name="Brush0" Value="112,112,112" SkinColorId="Key Brush" Opacity="0.15" />
+            </SvgPalette>
+            <SvgPalette Name="" Index="2">
+              <SvgColor Name="Paint0" Value="175,175,175" SkinColorId="Key Paint" Opacity="0.75" />
+              <SvgColor Name="Brush0" Value="112,112,112" SkinColorId="Key Brush" Opacity="0.15" />
+            </SvgPalette>
+          </SvgPalette>
+          <SvgImageNames>
+            <SvgImage Index="0" Name="hamburgermenu\rootgroup[0].svg" />
+          </SvgImageNames>
+          <SizingMargins Bottom="1" />
+        </Image>
+        <Border Left="185,185,185" Right="185,185,185" Top="185,185,185" Bottom="185,185,185" />
+        <Properties>
+          <AllowCompact Value="True" ValueType="System.Boolean" />
+          <AllowTouch Value="False" ValueType="System.Boolean" />
+          <AlphaBorderColor Value="64" ValueType="System.Int32" />
+          <DxSolidColor Value="0:4=0xBE72B5CD;0:7=0xC798C6D7;1:4=0xBE72B5CD;1:7=0xC798C6D7;2:4=0xBE72B5CD;2:7=0xC798C6D7;All" ValueType="System.String" />
+          <FontDelta Value="0" ValueType="System.Int32" />
+          <HeaderAlphaTextColor Value="180" ValueType="System.Int32" />
+          <HeaderPadding Value="(All=4)" ValueType="DevExpress.Skins.SkinPaddingEdges" />
+        </Properties>
+        <Color FontBold="True" ForeColor="@Key Brush Light" />
+        <Size MinSize="Width=10,Height=40" />
+        <SizeTouch AllowScale="False" ScaleFactor="1" MinSize="Width=10,Height=35" />
+        <SvgPalette>
+          <SvgPalette Name="Normal">
+            <SvgColor Name="White" Value="71,71,71" SkinColorId="Key Paint" />
+            <SvgColor Name="Black" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Blue" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Green" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Red" Value="255,255,255" SkinColorId="Key Brush" />
+            <SvgColor Name="Yellow" Value="255,255,255" SkinColorId="Key Brush" />
+          </SvgPalette>
+          <SvgPalette Name="Disabled">
+            <SvgColor Name="Black" Value="150,150,150" SkinColorId="Key Brush Light" />
+            <SvgColor Name="Blue" Value="150,150,150" SkinColorId="Key Brush Light" />
+            <SvgColor Name="Green" Value="150,150,150" SkinColorId="Key Brush Light" />
+            <SvgColor Name="Red" Value="150,150,150" SkinColorId="Key Brush Light" />
+            <SvgColor Name="Yellow" Value="150,150,150" SkinColorId="Key Brush Light" />
+            <SvgColor Name="White" Value="71,71,71" SkinColorId="Key Paint" />
+          </SvgPalette>
+        </SvgPalette>
+        <ScaleInfo>
+          <ScaleInfo ScaleFactor="2">
+            <Image ImageSize="Width=192,Height=64" ImageCount="3" Layout="Horizontal" Stretch="Stretch" ImageName="hamburgermenu\200dpi_rootgroup.png">
+              <SizingMargins Bottom="2" />
+            </Image>
+            <Properties>
+              <HeaderPadding Value="(All=8)" ValueType="DevExpress.Skins.SkinPaddingEdges" />
+            </Properties>
+            <Color FontBold="True" ForeColor="@Key Brush Light" />
+          </ScaleInfo>
+        </ScaleInfo>
+      </RootGroup>
+    </Elements>
+  </Skin27>
+  <Skin28 SkinProduct="Diagram" BasedOn="The Bezier" SkinName="Winter Joy">
+    <Elements />
+  </Skin28>
+  <Skin29 SkinProduct="GanttControl" BasedOn="The Bezier" SkinName="Winter Joy">
+    <Elements />
+  </Skin29>
+</Skins>

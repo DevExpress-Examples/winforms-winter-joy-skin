@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>DevExpress.Win.WinterJoySkin</id>
+        <version>1.0.1.0</version>
+        <tags>Windows Forms, DevExpress, Custom Skin, Skin</tags>
+        <authors>Developer Express Inc.</authors>
+        <owners>Developer Express Inc.</owners>
+        <iconUrl>https://secure.gravatar.com/avatar/6b38f1e9ffd8b069bcdc2741934fdbcf?s=512&amp;r=g&amp;d=retro</iconUrl>
+        <description>This package contains the Winter Joy theme skin not included in the basic set. You will require DevExpress components of v21.1.7+ or v21.2.4+ to use this skin.</description>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <license type="expression">Apache-2.0</license>
+        <language>en-US</language>
+        <repository type="git" url="https://github.com/DevExpress-Examples/winforms-winter-joy-skin" />		
+    </metadata>
+    <files>
+        <file src="..\Lib\DevExpress.WinterJoySkin.dll" target="lib\net452\DevExpress.WinterJoySkin.dll" />
+		<file src="..\Lib\DevExpress.WinterJoySkin.dll" target="lib\netcoreapp3.0\DevExpress.WinterJoySkin.dll" />
+    </files>
+</package>

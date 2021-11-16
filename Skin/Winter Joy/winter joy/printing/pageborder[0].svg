@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<svg x="0px" y="0px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" id="Layer_2" tag="Element1">
+  <g opacity="0.35" class="st0" tag="st0">
+    <path d="M29, 32L3, 32C1.3, 32 0, 30.7 0, 29L0, 3C0, 1.3 1.3, 0 3, 0L29, 0C30.7, 0 32, 1.3 32, 3L32, 29C32, 30.7 30.7, 32 29, 32z" fill="#FFAEAE" opacity="0.35" class="st1" tag="st1" />
+  </g>
+  <g opacity="0.35" class="st0" tag="st01">
+    <path d="M29, 31L3, 31C1.9, 31 1, 30.1 1, 29L1, 3C1, 1.9 1.9, 1 3, 1L29, 1C30.1, 1 31, 1.9 31, 3L31, 29C31, 30.1 30.1, 31 29, 31z" fill="#FFAEAE" opacity="0.35" class="st1" tag="st11" />
+  </g>
+  <g opacity="0.35" class="st0" tag="st02">
+    <path d="M29, 30L3, 30C2.4, 30 2, 29.6 2, 29L2, 3C2, 2.4 2.4, 2 3, 2L29, 2C29.6, 2 30, 2.4 30, 3L30, 29C30, 29.6 29.6, 30 29, 30z" fill="#FFAEAE" opacity="0.35" class="st1" tag="st12" />
+  </g>
+  <g tag="Element">
+    <rect x="3" y="3" width="26" height="26" rx="0" ry="0" fill="#AFAFAF" class="st2" tag="st2" />
+  </g>
+</svg>

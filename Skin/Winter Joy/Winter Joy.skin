@@ -1,0 +1,8 @@
+﻿<SkinItems version="1.0" application="DevExpress Skin Editor v2" assembly="DevExpress.WinterJoySkin" class="" extranamespace="">
+  <Item>
+    <ItemName>Winter Joy</ItemName>
+    <TemplateName>The Bezier</TemplateName>
+    <SkinMaskColor />
+    <SkinMaskColor2 />
+  </Item>
+</SkinItems>
