@@ -24,7 +24,7 @@ You can also obtain the skin library as a NuGet package at [DevExpress Win Winte
 Run the following command in the Package Manager Console to install the package:
 
 ```
-Install-Package DevExpress.Win.WinterJoySkin -Version 1.0.1
+Install-Package DevExpress.Win.WinterJoySkin -Version 1.0.2
 ```
 
 ## Register and Apply Skin
@@ -36,7 +36,7 @@ Once you included the Winter Joy skin library to your project, add the following
 static void Main() {
     // Register the Winter Joy skin.
     System.Reflection.Assembly asm = typeof(DevExpress.UserSkins.WinterJoy).Assembly; 
-    DevExpress.Skins.SkinManager.Default.RegisterAssembly(asm); 
+    DevExpress.XtraEditors.WindowsFormsSettings.RegisterUserSkins(asm); 
     // Apply the skin.
     DevExpress.XtraEditors.WindowsFormsSettings.DefaultLookAndFeel.SetSkinStyle("Winter Joy");
     //
@@ -49,7 +49,7 @@ Partial Public Class Form1
     Shared Sub New()
         ' Register the Winter Joy skin.
         Dim asm As Reflection.Assembly = GetType(DevExpress.UserSkins.WinterJoy).Assembly
-        DevExpress.Skins.SkinManager.Default.RegisterAssembly(asm)
+        DevExpress.XtraEditors.WindowsFormsSettings.RegisterUserSkins(asm)
         ' Apply the skin.
         DevExpress.XtraEditors.WindowsFormsSettings.DefaultLookAndFeel.SetSkinStyle("Winter Joy")
     End Sub

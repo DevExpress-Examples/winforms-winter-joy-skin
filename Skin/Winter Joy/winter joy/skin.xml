@@ -575,7 +575,6 @@
         </ScaleInfo>
       </EditorButton>
       <RadioButton>
-        <ContentMargins Bottom="3" Top="3" Left="3" Right="3" />
         <Image ImageCount="8" Layout="Vertical" Stretch="NoResize" ImageName="editors\radiobutton.png">
           <SvgPalette>
             <SvgPalette Name="" Index="0">
