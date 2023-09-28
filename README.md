@@ -61,7 +61,7 @@ End Class
 
 ## Personalize Winter Joy Skin
 
-The [WinForms Skin Editor](https://docs.devexpress.com/SkinEditor/1630/winforms-skin-editor) tool allows you to customize the WinterJoy skin (as well as any other DevExpress skins). Open the skin project (the `/Skin/Winter Joy/Winter Joy.skin` file) in the Skin Editor, and modify default colors, images, and padding settings. Save the changes and generate the new skin library, as demonstrated in the following article: [Export and Apply Custom Skins](https://docs.devexpress.com/SkinEditor/2546/export-and-apply-custom-skins).
+The [WinForms Skin Editor](https://docs.devexpress.com/SkinEditor/1630/winforms-skin-editor) tool allows you to customize the WinterJoy skin (as well as any other DevExpress skins). Open the skin project (the `/Skin/Winter Joy/Winter Joy.skin` file) in the Skin Editor, and modify default colors, images, and padding settings. Save changes and generate a new skin library, as demonstrated in the following help topic: [Export and Apply Custom Skins](https://docs.devexpress.com/SkinEditor/2546/export-and-apply-custom-skins).
 
 ## Documentation 
 
