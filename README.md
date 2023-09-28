@@ -20,7 +20,7 @@ The current repository contains the skin library ([DevExpress.WinterJoySkin.dll]
 
 ### NuGet Package
 
-You can also obtain the skin library as a NuGet package at [DevExpress Win Winter Joy Skin](https://www.nuget.org/packages/DevExpress.Win.WinterJoySkin).
+You can also obtain the skin library as a NuGet package at [DevExpress.Win.WinterJoySkin](https://www.nuget.org/packages/DevExpress.Win.WinterJoySkin).
 Run the following command in the Package Manager Console to install the package:
 
 ```
@@ -29,7 +29,7 @@ Install-Package DevExpress.Win.WinterJoySkin -Version 1.0.2
 
 ## Register and Apply Skin
 
-Once you included the Winter Joy skin library to your project, add the following skin registration code:
+Once you include the Winter Joy skin library in your project, add the following skin registration code:
 
 ```cs
 [STAThread]
