@@ -25,7 +25,7 @@ You can also obtain the skin library as a NuGet package at [DevExpress.Win.Winte
 Run the following command in the Package Manager Console to install the package:
 
 ```
-Install-Package DevExpress.Win.WinterJoySkin -Version 1.0.2
+Install-Package DevExpress.Win.WinterJoySkin -Version 1.0.3
 ```
 
 ## Register and Apply Skin
