@@ -70,7 +70,7 @@ The [WinForms Skin Editor](https://docs.devexpress.com/SkinEditor/1630/winforms-
 - [Export and Apply Custom Skins](https://docs.devexpress.com/SkinEditor/2546/export-and-apply-custom-skins)
 - [Install DevExpress Controls Using NuGet Packages](https://docs.devexpress.com/GeneralInformation/115912/installation/install-devexpress-controls-using-nuget-packages)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-winter-joy-skin&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-winter-joy-skin&~~~was_helpful=no)
 
